@@ -19,7 +19,7 @@ def base64_to_image(base64_string):
 
 
 lida = Manager(text_gen = llm("openai"))
-textgen_config = TextGenerationConfig(n=1, temperature=0.5, model="gpt-3.5-turbo-0301", use_cache=True)
+textgen_config = TextGenerationConfig(n=1, temperature=0.5, model="gpt-3.5-turbo", use_cache=True)
 
 menu = st.sidebar.selectbox("Choose an Option", ["Summarize", "Question based Graph"])
 
@@ -39,9 +39,9 @@ if menu == "Summarize":
         library = "seaborn"
         textgen_config = TextGenerationConfig(n=1, temperature=0.2, use_cache=True)
         charts = lida.visualize(summary=summary, goal=goals[i], textgen_config=textgen_config, library=library)  
-        img_base64_string = charts[0].raster
-        img = base64_to_image(img_base64_string)
-        st.image(img)
+        # img_base64_string = charts[0].raster
+        # img = base64_to_image(img_base64_string)
+        # st.image(img)
         
 
 

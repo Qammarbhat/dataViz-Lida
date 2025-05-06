@@ -2,3 +2,5 @@ lida
 lida[transformers]
 torch
 streamlit
+pymongo
+python-dotenv
