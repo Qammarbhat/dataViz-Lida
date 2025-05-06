@@ -1,0 +1,271 @@
+[
+    {
+      "_id": "678dbdfccfc7b3f9c397aa95",
+      "user": "6784c241e12fe0ae8dd55e46",
+      "date": "2025-01-20T03:07:40.064Z",
+      "checkIn": {
+        "time": "2025-01-20T03:07:40.066Z",
+        "location": { "latitude": 33.8884179, "longitude": 74.9140102 }
+      },
+      "totalHours": 14.87,
+      "status": "present",
+      "breaks": [
+        {
+          "startTime": "2025-01-20T07:59:33.372Z",
+          "endTime": "2025-01-20T08:30:33.637Z",
+          "duration": 31.004416666666668,
+          "_id": "678e0265cfc7b3f9c397ad6a"
+        }
+      ],
+      "createdAt": "2025-01-20T03:07:40.073Z",
+      "updatedAt": "2025-01-21T03:09:10.571Z",
+      "__v": 1,
+      "overtimeHours": 0,
+      "regularHours": 0,
+      "checkOut": {
+        "time": "2025-01-20T18:00:00.000Z",
+        "location": { "latitude": 33.8884179, "longitude": 74.9140102 }
+      },
+      "overworkingMinutes": 0
+    },
+    {
+      "_id": "6789d2028e379c6c59d79433",
+      "user": "6777cee31aea9842fcf0c9e2",
+      "date": "2025-01-17T03:44:02.439Z",
+      "checkIn": {
+        "time": "2025-01-17T03:44:02.439Z",
+        "location": { "latitude": 34.2228992, "longitude": 74.7667456 }
+      },
+      "totalHours": 7.82,
+      "status": "present",
+      "breaks": [
+        {
+          "startTime": "2025-01-17T07:52:06.265Z",
+          "endTime": "2025-01-17T08:26:14.213Z",
+          "duration": 34.132466666666666,
+          "_id": "678a0c268e379c6c59d7988d"
+        },
+        {
+          "startTime": "2025-01-17T09:06:05.223Z",
+          "endTime": "2025-01-17T09:18:43.647Z",
+          "duration": 12.6404,
+          "_id": "678a1d7da265baa4ccf2117b"
+        }
+      ],
+      "createdAt": "2025-01-17T03:44:02.440Z",
+      "updatedAt": "2025-01-17T11:33:19.665Z",
+      "__v": 2,
+      "checkOut": {
+        "time": "2025-01-17T11:33:19.663Z",
+        "location": { "latitude": 34.0688896, "longitude": 74.776576 }
+      }
+    },
+    {
+      "_id": "6789d01d8e379c6c59d79381",
+      "user": "6784cdfce12fe0ae8dd56107",
+      "date": "2025-01-17T03:35:57.608Z",
+      "checkIn": {
+        "time": "2025-01-17T03:35:57.608Z",
+        "location": { "latitude": 32.7548928, "longitude": 74.8519424 }
+      },
+      "totalHours": 8.3,
+      "status": "present",
+      "breaks": [
+        {
+          "startTime": "2025-01-17T09:06:19.040Z",
+          "endTime": "2025-01-17T09:33:54.139Z",
+          "duration": 27.584983333333334,
+          "_id": "678a1d8ba265baa4ccf2119e"
+        }
+      ],
+      "createdAt": "2025-01-17T03:35:57.609Z",
+      "updatedAt": "2025-01-17T11:54:10.087Z",
+      "__v": 1,
+      "checkOut": {
+        "time": "2025-01-17T11:54:10.086Z",
+        "location": { "latitude": 32.6893568, "longitude": 74.8355584 }
+      }
+    },
+    {
+      "_id": "6789cfeb8e379c6c59d7933c",
+      "user": "67861ca48df1fafd50b4af66",
+      "date": "2025-01-17T03:35:07.636Z",
+      "checkIn": {
+        "time": "2025-01-17T03:35:07.638Z",
+        "location": { "latitude": 33.90178347948416, "longitude": 74.92012291857186 }
+      },
+      "totalHours": 9.99,
+      "status": "present",
+      "breaks": [
+        {
+          "startTime": "2025-01-17T06:13:24.999Z",
+          "endTime": "2025-01-17T06:33:39.393Z",
+          "duration": 20.2399,
+          "_id": "6789f5048e379c6c59d794e9"
+        }
+      ],
+      "createdAt": "2025-01-17T03:35:07.639Z",
+      "updatedAt": "2025-01-17T13:34:44.188Z",
+      "__v": 1,
+      "checkOut": {
+        "time": "2025-01-17T13:34:44.185Z",
+        "location": { "latitude": 33.901977700624506, "longitude": 74.92040732676395 }
+      }
+    },
+    {
+      "_id": "6784bf65e12fe0ae8dd55c81",
+      "user": "67ad6dccd3cb49986af559aa",
+      "date": "2025-01-13T07:23:17.888Z",
+      "checkIn": {
+        "time": "2025-01-13T07:23:17.889Z",
+        "location": { "latitude": 33.88824320024114, "longitude": 74.91387099675546 }
+      },
+      "totalHours": 0.03,
+      "status": "present",
+      "breaks": [
+        {
+          "startTime": "2025-01-13T07:24:27.239Z",
+          "endTime": "2025-01-13T07:25:02.077Z",
+          "duration": 0.5806333333333333,
+          "_id": "6784bfabe12fe0ae8dd55cc1"
+        }
+      ],
+      "createdAt": "2025-01-13T07:23:17.890Z",
+      "updatedAt": "2025-01-13T07:25:02.079Z",
+      "__v": 1,
+      "checkOut": {
+        "time": "2025-01-13T07:25:02.077Z",
+        "location": { "latitude": 33.8883857631666, "longitude": 74.9139709339085 }
+      }
+    },
+    {
+      "_id": "6790ab1c8e379c6c59d79911",
+      "user": "6784c241e12fe0ae8dd55e46",
+      "date": "2025-01-22T04:10:30.064Z",
+      "checkIn": {
+        "time": "2025-01-22T04:10:30.066Z",
+        "location": { "latitude": 33.891234, "longitude": 74.913789 }
+      },
+      "totalHours": 8.15,
+      "status": "present",
+      "breaks": [
+        {
+          "startTime": "2025-01-22T08:00:00.000Z",
+          "endTime": "2025-01-22T08:20:00.000Z",
+          "duration": 20,
+          "_id": "6790ab2f8e379c6c59d79913"
+        }
+      ],
+      "createdAt": "2025-01-22T04:10:30.073Z",
+      "updatedAt": "2025-01-22T12:25:10.571Z",
+      "__v": 1,
+      "checkOut": {
+        "time": "2025-01-22T12:25:10.000Z",
+        "location": { "latitude": 33.891234, "longitude": 74.913789 }
+      }
+    },
+    {
+      "_id": "6790ac5f8e379c6c59d79999",
+      "user": "6777cee31aea9842fcf0c9e2",
+      "date": "2025-01-22T06:00:00.000Z",
+      "checkIn": {
+        "time": "2025-01-22T06:00:00.000Z",
+        "location": { "latitude": 34.2230000, "longitude": 74.7650000 }
+      },
+      "totalHours": 6.45,
+      "status": "present",
+      "breaks": [
+        {
+          "startTime": "2025-01-22T08:30:00.000Z",
+          "endTime": "2025-01-22T08:45:00.000Z",
+          "duration": 15,
+          "_id": "6790ac718e379c6c59d7999b"
+        }
+      ],
+      "createdAt": "2025-01-22T06:00:01.000Z",
+      "updatedAt": "2025-01-22T12:45:01.000Z",
+      "__v": 1,
+      "checkOut": {
+        "time": "2025-01-22T12:45:00.000Z",
+        "location": { "latitude": 34.0688000, "longitude": 74.7765000 }
+      }
+    },
+    {
+      "_id": "6790ad998e379c6c59d799ff",
+      "user": "6784cdfce12fe0ae8dd56107",
+      "date": "2025-01-22T05:35:00.000Z",
+      "checkIn": {
+        "time": "2025-01-22T05:35:00.000Z",
+        "location": { "latitude": 32.7550000, "longitude": 74.8520000 }
+      },
+      "totalHours": 7.5,
+      "status": "present",
+      "breaks": [
+        {
+          "startTime": "2025-01-22T09:00:00.000Z",
+          "endTime": "2025-01-22T09:20:00.000Z",
+          "duration": 20,
+          "_id": "6790adab8e379c6c59d79a01"
+        }
+      ],
+      "createdAt": "2025-01-22T05:35:00.000Z",
+      "updatedAt": "2025-01-22T13:05:00.000Z",
+      "__v": 1,
+      "checkOut": {
+        "time": "2025-01-22T13:05:00.000Z",
+        "location": { "latitude": 32.6893000, "longitude": 74.8355000 }
+      }
+    },
+    {
+      "_id": "6790aef18e379c6c59d79a80",
+      "user": "67861ca48df1fafd50b4af66",
+      "date": "2025-01-22T04:45:00.000Z",
+      "checkIn": {
+        "time": "2025-01-22T04:45:00.000Z",
+        "location": { "latitude": 33.9020000, "longitude": 74.9200000 }
+      },
+      "totalHours": 9.1,
+      "status": "present",
+      "breaks": [
+        {
+          "startTime": "2025-01-22T07:30:00.000Z",
+          "endTime": "2025-01-22T07:50:00.000Z",
+          "duration": 20,
+          "_id": "6790af068e379c6c59d79a82"
+        }
+      ],
+      "createdAt": "2025-01-22T04:45:00.000Z",
+      "updatedAt": "2025-01-22T13:55:00.000Z",
+      "__v": 1,
+      "checkOut": {
+        "time": "2025-01-22T13:55:00.000Z",
+        "location": { "latitude": 33.9020000, "longitude": 74.9203000 }
+      }
+    },
+    {
+      "_id": "6790b01c8e379c6c59d79b21",
+      "user": "67175cb20d39c16d5f2af408",
+      "date": "2025-01-22T07:00:00.000Z",
+      "checkIn": {
+        "time": "2025-01-22T07:00:00.000Z",
+        "location": { "latitude": 33.8882000, "longitude": 74.9139000 }
+      },
+      "totalHours": 5.5,
+      "status": "present",
+      "breaks": [
+        {
+          "startTime": "2025-01-22T10:00:00.000Z",
+          "endTime": "2025-01-22T10:20:00.000Z",
+          "duration": 20,
+          "_id": "6790b0348e379c6c59d79b23"
+        }
+      ],
+      "createdAt": "2025-01-22T07:00:00.000Z",
+      "updatedAt": "2025-01-22T12:30:00.000Z",
+      "__v": 1,
+      "checkOut": {
+        "time": "2025-01-22T12:30:00.000Z",
+        "location": { "latitude": 33.8884000, "longitude": 74.9139500 }
+      }
+    }
+]
