@@ -68,5 +68,30 @@ elif menu == "Question based Graph":
                 st.image(img)
             
 
+@app.get("/visualize/")
+async def visualize_data(question: str = Query(...), redis_key: str = "merged_attendance_csv"):
+    """
+    Generate a visualization based on the user's question and data stored in Redis.
+    """
+    try:
+        df = get_df_from_redis(redis_key)
+        summary = lida.summarize(df, summary_method="default", textgen_config=textgen_config)
+        charts = lida.visualize(summary=summary, goal=question, textgen_config=textgen_config)
+
+        if not charts:
+            return JSONResponse(status_code=404, content={"error": "No chart could be generated for the given question."})
+
+        chart = charts[0]
+        return {
+            "question": question,
+            "chart_code": chart.code,
+            "image_base64": chart.raster
+        }
+
+    except ValueError as ve:
+        return JSONResponse(status_code=400, content={"error": str(ve)})
+    except Exception as e:
+        return JSONResponse(status_code=500, content={"error": f"Visualization failed: {e}"})
+
 
 
