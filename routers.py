@@ -219,7 +219,7 @@ async def websocket_endpoint(websocket: WebSocket):
         # Initial data load and send
         merged_data, merged_df = generate_employee_data()
         if not merged_df.empty:
-            save_csv_to_redis(merged_df, "merged_attendance_csv")
+            save_csv_to_redis(merged_df, "employee_data_csv")
             await websocket.send_text(merged_df.to_csv(index=False, encoding='utf-8'))
 
         # Set up change streams
@@ -227,13 +227,13 @@ async def websocket_endpoint(websocket: WebSocket):
         user_stream = users_collection.watch()
 
         while True:
-            change = await change_stream.try_next()  # Use try_next()
-            user_change = await user_stream.try_next()
+            change = change_stream.try_next()
+            user_change = user_stream.try_next()
 
             if change is not None or user_change is not None:
                 merged_data, merged_df = generate_employee_data()
                 if not merged_df.empty:
-                    save_csv_to_redis(merged_df, "merged_attendance_csv")
+                    save_csv_to_redis(merged_df, "employee_data_csv")
                     await websocket.send_text(merged_df.to_csv(index=False, encoding='utf-8'))
             await asyncio.sleep(0.1) # Add a small delay to prevent excessive CPU usage
 
