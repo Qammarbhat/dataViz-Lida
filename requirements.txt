@@ -4,3 +4,5 @@ torch
 streamlit
 pymongo
 python-dotenv
+fastapi[standard]
+redis

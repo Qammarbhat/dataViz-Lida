@@ -1,8 +1,9 @@
-import redis
+
 from dotenv import load_dotenv
 import os
 import pandas as pd
-
+from io import StringIO 
+import redis
 load_dotenv()
 redis_url = os.environ.get("REDIS_URL")
 
@@ -16,17 +17,29 @@ redis_url = os.environ.get("REDIS_URL")
 
 redis_client = redis.StrictRedis.from_url(redis_url, decode_responses=True)
 
-def save_csv_to_redis(df: pd.DataFrame, redis_key: str = "merged_attendance_csv"):
+def save_csv_to_redis(df: pd.DataFrame, key: str):
     """
-    Save the DataFrame as CSV string in Redis.
-    
+    Saves a Pandas DataFrame to Redis as a CSV string.
+
     Args:
-        df (pd.DataFrame): DataFrame to save.
-        redis_key (str): Redis key under which to store the CSV.
+        df (pd.DataFrame): The DataFrame to save.
+        key (str): The Redis key to use.
     """
+    csv_data = df.to_csv(index=False, encoding='utf-8')
+    redis_client.set(key, csv_data)
+    print(f"Saved CSV to Redis with key: {key}")
+
+
+def get_df_from_redis() -> pd.DataFrame:
+    """
+    Retrieve and return a pandas DataFrame from Redis-stored CSV string.
+    """
+    csv_data = redis_client.get("merged_attendance_csv")
+    if not csv_data:
+        raise ValueError(f"No data found")
+    
     try:
-        csv_data = df.to_csv(index=False)
-        redis_client.set(redis_key, csv_data)
-        print(f"CSV saved to Redis under key '{redis_key}'")
+        df = pd.read_csv(StringIO(csv_data))
+        return df
     except Exception as e:
-        print(f"Error saving CSV to Redis: {e}")
+        raise ValueError(f"Error reading CSV from Redis: {e}")

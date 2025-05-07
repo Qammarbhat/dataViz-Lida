@@ -20,6 +20,7 @@ def base64_to_image(base64_string):
 
 lida = Manager(text_gen = llm("openai"))
 textgen_config = TextGenerationConfig(n=1, temperature=0.5, model="gpt-3.5-turbo", use_cache=True)
+# textgen_config = TextGenerationConfig(n=1, temperature=0.5, model="o4-mini-2025-04-16", use_cache=True)
 
 menu = st.sidebar.selectbox("Choose an Option", ["Summarize", "Question based Graph"])
 
@@ -32,16 +33,36 @@ if menu == "Summarize":
             f.write(file_uploader.getvalue())
         summary = lida.summarize("filename.csv", summary_method="default", textgen_config=textgen_config)
         st.write(summary)
-        goals = lida.goals(summary, n=2, textgen_config=textgen_config)
-        for goal in goals:
-            st.write(goal)
-        i = 0
-        library = "seaborn"
-        textgen_config = TextGenerationConfig(n=1, temperature=0.2, use_cache=True)
-        charts = lida.visualize(summary=summary, goal=goals[i], textgen_config=textgen_config, library=library)  
-        # img_base64_string = charts[0].raster
-        # img = base64_to_image(img_base64_string)
-        # st.image(img)
+        goals = lida.goals(summary, n=5, textgen_config=textgen_config)
+
+        for i, goal in enumerate(goals, start=0):
+            st.write(f"Goal {i+1}: {goal}")  # numbering starts at 1 for display
+
+            library = "seaborn"
+            textgen_config = TextGenerationConfig(n=4, temperature=0.2, use_cache=True)
+            
+            charts = lida.visualize(summary=summary, goal=goal, textgen_config=textgen_config, library=library)
+
+            if charts and len(charts) > 0:
+                # pick first chart for this goal
+                img_base64_string = charts[0].raster
+                if img_base64_string:
+                    img = base64_to_image(img_base64_string)
+                    st.image(img)
+                else:
+                    st.write("NO CHARTS GENERATED")
+            else:
+                st.write("NO CHARTS GENERATED")
+        
+        # for i in range(len(charts)):
+        #     st.write(len(charts))
+        #     st.write(f"LOOPING {i}")
+        #     if charts[i]:
+        #         img_base64_string = charts[i].raster
+        #         img = base64_to_image(img_base64_string)
+        #         st.image(img)
+        #     else:
+        #         st.write("LALALALA")
         
 
 
@@ -68,30 +89,6 @@ elif menu == "Question based Graph":
                 st.image(img)
             
 
-@app.get("/visualize/")
-async def visualize_data(question: str = Query(...), redis_key: str = "merged_attendance_csv"):
-    """
-    Generate a visualization based on the user's question and data stored in Redis.
-    """
-    try:
-        df = get_df_from_redis(redis_key)
-        summary = lida.summarize(df, summary_method="default", textgen_config=textgen_config)
-        charts = lida.visualize(summary=summary, goal=question, textgen_config=textgen_config)
-
-        if not charts:
-            return JSONResponse(status_code=404, content={"error": "No chart could be generated for the given question."})
-
-        chart = charts[0]
-        return {
-            "question": question,
-            "chart_code": chart.code,
-            "image_base64": chart.raster
-        }
-
-    except ValueError as ve:
-        return JSONResponse(status_code=400, content={"error": str(ve)})
-    except Exception as e:
-        return JSONResponse(status_code=500, content={"error": f"Visualization failed: {e}"})
 
 
 
