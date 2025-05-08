@@ -34,7 +34,7 @@ def get_df_from_redis() -> pd.DataFrame:
     """
     Retrieve and return a pandas DataFrame from Redis-stored CSV string.
     """
-    csv_data = redis_client.get("merged_attendance_csv")
+    csv_data = redis_client.get("employee_data_csv")
     if not csv_data:
         raise ValueError(f"No data found")
     

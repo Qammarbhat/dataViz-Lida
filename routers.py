@@ -1,5 +1,6 @@
 import asyncio
-from fastapi import FastAPI, WebSocket
+import re
+from fastapi import FastAPI, Query, Request, WebSocket
 from fastapi.responses import JSONResponse
 import pymongo
 import pandas as pd
@@ -42,7 +43,7 @@ def save_csv_to_redis(df: pd.DataFrame, key: str):
     print(f"Saved CSV to Redis with key: {key}")
 
 
-def get_df_from_redis(key: str = "merged_attendance_csv") -> pd.DataFrame:
+def get_df_from_redis(key: str = "employee_data_csv") -> pd.DataFrame:
     """
     Retrieve and return a pandas DataFrame from Redis-stored CSV string.
     """
@@ -294,3 +295,84 @@ async def visualize_data(question: str , redis_key: str = "merged_attendance_csv
         return JSONResponse(status_code=400, content={"error": str(ve)})
     except Exception as e:
         return JSONResponse(status_code=500, content={"error": f"Visualization failed: {e}"})
+
+from utils import save_charts_to_json
+@app.get("/api/summarize")
+async def summarize_and_generate_charts():
+    try:
+        df = get_df_from_redis()
+        summary = lida.summarize(df, summary_method="default", textgen_config=textgen_config)
+        goals = lida.goals(summary, n=10, textgen_config=textgen_config)  # request more goals just in case
+
+        all_results = []
+        goal_index = 0
+
+        while len(all_results) < 4 and goal_index < len(goals):
+            goal = goals[goal_index]
+
+            # Disable cache to force new chart generation
+            charts = lida.visualize(
+                summary=summary,
+                goal=goal,
+                textgen_config=TextGenerationConfig(n=1, temperature=0.2, use_cache=False),
+                library="seaborn"
+            )
+
+            goal_str = str(goal)
+            match = re.search(r"question='(.*?)'", goal_str)
+            description = match.group(1) if match else ""
+
+            if charts and charts[0] and charts[0].raster:
+                all_results.append({
+                    "goal": goal_str,
+                    "description": description,
+                    "chart_base64": charts[0].raster
+                })
+
+            goal_index += 1
+
+        if not all_results:
+            return JSONResponse(status_code=404, content={"error": "No charts could be generated."})
+
+        save_charts_to_json(all_results)
+        return all_results
+
+    except ValueError as ve:
+        return JSONResponse(status_code=400, content={"error": str(ve)})
+    except Exception as e:
+        return JSONResponse(status_code=500, content={"error": str(e)})
+    
+
+@app.get("/api/visualize")
+async def visualize_from_query(query: str = Query(..., description="Query string to generate chart")):
+    try:
+        user_query = query.strip()
+
+        if not user_query:
+            return JSONResponse(status_code=400, content={"error": "Query parameter cannot be empty."})
+
+        df = get_df_from_redis()
+        summary = lida.summarize(df, summary_method="default", textgen_config=textgen_config)
+
+        charts = lida.visualize(
+            summary=summary,
+            goal=user_query,
+            textgen_config=TextGenerationConfig(n=1, temperature=0.2, use_cache=False),
+            library="seaborn"
+        )
+
+        if not charts or not charts[0] or not charts[0].raster:
+            return JSONResponse(status_code=404, content={"error": "No chart could be generated for the given query."})
+
+        result = {
+            "goal": user_query,
+            "description": user_query,
+            "chart_base64": charts[0].raster
+        }
+
+        return result
+
+    except ValueError as ve:
+        return JSONResponse(status_code=400, content={"error": str(ve)})
+    except Exception as e:
+        return JSONResponse(status_code=500, content={"error": str(e)})
