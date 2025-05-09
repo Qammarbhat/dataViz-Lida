@@ -11,9 +11,19 @@ from bson import ObjectId
 from dotenv import load_dotenv
 import redis
 from io import StringIO
+from fastapi.middleware.cors import CORSMiddleware
+import uvicorn
 
 load_dotenv()
 app = FastAPI()
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # or ['https://yourdomain.com']
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 
 # MongoDB connection URI (change if needed)
 MONGO_URI = os.environ.get("MONGO_URI")
@@ -376,3 +386,8 @@ async def visualize_from_query(query: str = Query(..., description="Query string
         return JSONResponse(status_code=400, content={"error": str(ve)})
     except Exception as e:
         return JSONResponse(status_code=500, content={"error": str(e)})
+    
+
+# Entry point
+if __name__ == "__main__":
+    uvicorn.run("routers:app", host="0.0.0.0", port=8000, reload=True)

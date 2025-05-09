@@ -1,0 +1,5814 @@
+[
+  {
+    "_id": {
+      "$oid": "d4f80eddd20546af9d0e2edd"
+    },
+    "user": {
+      "$oid": "6777cee31aea9842fcf0c9e2"
+    },
+    "date": {
+      "$date": "2025-04-05T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-05T09:45:00Z"
+      },
+      "location": {
+        "latitude": 28.618546,
+        "longitude": 77.275248
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-05T19:30:36Z"
+      },
+      "location": {
+        "latitude": 28.780615,
+        "longitude": 77.23621
+      }
+    },
+    "totalHours": 9.76,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "224c071bae4c4a4dbb740d89"
+        },
+        "startTime": {
+          "$date": "2025-04-05T11:08:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-05T11:29:00Z"
+        },
+        "duration": 0.35
+      },
+      {
+        "_id": {
+          "$oid": "8b5e3cbcc1b346d68d9e86e3"
+        },
+        "startTime": {
+          "$date": "2025-04-05T12:28:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-05T12:45:24Z"
+        },
+        "duration": 0.29
+      },
+      {
+        "_id": {
+          "$oid": "77d356ffa19843c38bd5055a"
+        },
+        "startTime": {
+          "$date": "2025-04-05T11:41:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-05T12:06:12Z"
+        },
+        "duration": 0.42
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.604082Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.604089Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "94f3314e3f244bbd807e6398"
+    },
+    "user": {
+      "$oid": "6784c241e12fe0ae8dd55e46"
+    },
+    "date": {
+      "$date": "2025-04-10T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-10T08:15:00Z"
+      },
+      "location": {
+        "latitude": 28.618506,
+        "longitude": 77.247136
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-10T16:38:24Z"
+      },
+      "location": {
+        "latitude": 28.647971,
+        "longitude": 77.212359
+      }
+    },
+    "totalHours": 8.39,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "ce0c1f83a2d84147b0e41fc6"
+        },
+        "startTime": {
+          "$date": "2025-04-10T11:58:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-10T12:15:24Z"
+        },
+        "duration": 0.29
+      },
+      {
+        "_id": {
+          "$oid": "4b8db1b1f7ba44de9b43a26e"
+        },
+        "startTime": {
+          "$date": "2025-04-10T11:38:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-10T12:07:24Z"
+        },
+        "duration": 0.49
+      },
+      {
+        "_id": {
+          "$oid": "347f6d6deb3e400383873672"
+        },
+        "startTime": {
+          "$date": "2025-04-10T10:03:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-10T10:30:36Z"
+        },
+        "duration": 0.46
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.604273Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.604277Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "082d01f9e4624e52a65abeea"
+    },
+    "user": {
+      "$oid": "6784c241e12fe0ae8dd55e46"
+    },
+    "date": {
+      "$date": "2025-04-29T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-29T09:30:00Z"
+      },
+      "location": {
+        "latitude": 28.773378,
+        "longitude": 77.293644
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-29T18:51:00Z"
+      },
+      "location": {
+        "latitude": 28.609062,
+        "longitude": 77.270629
+      }
+    },
+    "totalHours": 9.35,
+    "status": "present",
+    "breaks": [],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.604341Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.604344Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "2978c0f0fcfd44c08aba1977"
+    },
+    "user": {
+      "$oid": "6784cdfce12fe0ae8dd56107"
+    },
+    "date": {
+      "$date": "2025-04-25T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-25T09:45:00Z"
+      },
+      "location": {
+        "latitude": 28.766891,
+        "longitude": 77.275532
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-25T19:12:00Z"
+      },
+      "location": {
+        "latitude": 28.726603,
+        "longitude": 77.217509
+      }
+    },
+    "totalHours": 9.45,
+    "status": "present",
+    "breaks": [],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.604407Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.604410Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "bca32474d0494bf3ab27b045"
+    },
+    "user": {
+      "$oid": "6784cdfce12fe0ae8dd56107"
+    },
+    "date": {
+      "$date": "2025-04-01T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-01T09:15:00Z"
+      },
+      "location": {
+        "latitude": 28.757047,
+        "longitude": 77.289267
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-01T17:12:00Z"
+      },
+      "location": {
+        "latitude": 28.736051,
+        "longitude": 77.226475
+      }
+    },
+    "totalHours": 7.95,
+    "status": "present",
+    "breaks": [],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.604466Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.604469Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "4d0210e7cdf44842903d4b2e"
+    },
+    "user": {
+      "$oid": "681b05f9f095501f635801c9"
+    },
+    "date": {
+      "$date": "2025-04-25T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-25T09:15:00Z"
+      },
+      "location": {
+        "latitude": 28.751737,
+        "longitude": 77.257728
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-25T18:13:12Z"
+      },
+      "location": {
+        "latitude": 28.750097,
+        "longitude": 77.132256
+      }
+    },
+    "totalHours": 8.97,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "532844540db445b692a727fa"
+        },
+        "startTime": {
+          "$date": "2025-04-25T11:01:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-25T11:14:12Z"
+        },
+        "duration": 0.22
+      },
+      {
+        "_id": {
+          "$oid": "8b18ef2fa6eb493fb666f97b"
+        },
+        "startTime": {
+          "$date": "2025-04-25T11:57:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-25T12:21:36Z"
+        },
+        "duration": 0.41
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.604616Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.604619Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "8900f0596b734ead99d0d6b2"
+    },
+    "user": {
+      "$oid": "681b05f9f095501f635801c9"
+    },
+    "date": {
+      "$date": "2025-04-14T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-14T08:45:00Z"
+      },
+      "location": {
+        "latitude": 28.714426,
+        "longitude": 77.256595
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-14T17:55:12Z"
+      },
+      "location": {
+        "latitude": 28.768142,
+        "longitude": 77.233871
+      }
+    },
+    "totalHours": 9.17,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "82a42a282cff4673ba61e8ce"
+        },
+        "startTime": {
+          "$date": "2025-04-14T12:29:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-14T12:52:24Z"
+        },
+        "duration": 0.39
+      },
+      {
+        "_id": {
+          "$oid": "02cf3c5546634824a6414a28"
+        },
+        "startTime": {
+          "$date": "2025-04-14T10:10:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-14T10:28:00Z"
+        },
+        "duration": 0.3
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.604734Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.604738Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "9a2b8a2019be4707b51c821f"
+    },
+    "user": {
+      "$oid": "67861ca48df1fafd50b4af66"
+    },
+    "date": {
+      "$date": "2025-04-07T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-07T09:30:00Z"
+      },
+      "location": {
+        "latitude": 28.766421,
+        "longitude": 77.234826
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-07T18:06:36Z"
+      },
+      "location": {
+        "latitude": 28.655225,
+        "longitude": 77.146936
+      }
+    },
+    "totalHours": 8.61,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "a6673e2026f04f48b760e3f3"
+        },
+        "startTime": {
+          "$date": "2025-04-07T12:12:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-07T12:34:48Z"
+        },
+        "duration": 0.38
+      },
+      {
+        "_id": {
+          "$oid": "e75b029b2ccb4a6faa1337ef"
+        },
+        "startTime": {
+          "$date": "2025-04-07T11:56:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-07T12:20:00Z"
+        },
+        "duration": 0.4
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.604989Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.604993Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "f2e30c7e2cd64c3d811460c2"
+    },
+    "user": {
+      "$oid": "681b05f9f095501f635801c9"
+    },
+    "date": {
+      "$date": "2025-04-20T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-20T09:00:00Z"
+      },
+      "location": {
+        "latitude": 28.796347,
+        "longitude": 77.233446
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-20T16:40:12Z"
+      },
+      "location": {
+        "latitude": 28.772979,
+        "longitude": 77.107016
+      }
+    },
+    "totalHours": 7.67,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "f7e12178f93242e19be127bd"
+        },
+        "startTime": {
+          "$date": "2025-04-20T12:12:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-20T12:24:36Z"
+        },
+        "duration": 0.21
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.605111Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.605115Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "1b7f7ae8824347ba8119d324"
+    },
+    "user": {
+      "$oid": "681b05f9f095501f635801c9"
+    },
+    "date": {
+      "$date": "2025-04-22T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-22T09:15:00Z"
+      },
+      "location": {
+        "latitude": 28.620079,
+        "longitude": 77.17768
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-22T17:36:36Z"
+      },
+      "location": {
+        "latitude": 28.765852,
+        "longitude": 77.275623
+      }
+    },
+    "totalHours": 8.36,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "2961872dc7714c899d639d6c"
+        },
+        "startTime": {
+          "$date": "2025-04-22T10:50:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-22T11:16:24Z"
+        },
+        "duration": 0.44
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.605188Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.605192Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "802dc2d4880d4ff29e9ac227"
+    },
+    "user": {
+      "$oid": "6777cee31aea9842fcf0c9e2"
+    },
+    "date": {
+      "$date": "2025-04-06T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-06T10:30:00Z"
+      },
+      "location": {
+        "latitude": 28.632734,
+        "longitude": 77.251924
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-06T19:49:12Z"
+      },
+      "location": {
+        "latitude": 28.690459,
+        "longitude": 77.292945
+      }
+    },
+    "totalHours": 9.32,
+    "status": "present",
+    "breaks": [],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.605239Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.605241Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "6724f1b9860a49469d866bec"
+    },
+    "user": {
+      "$oid": "6784c241e12fe0ae8dd55e46"
+    },
+    "date": {
+      "$date": "2025-04-04T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-04T10:30:00Z"
+      },
+      "location": {
+        "latitude": 28.703643,
+        "longitude": 77.145756
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-04T20:23:24Z"
+      },
+      "location": {
+        "latitude": 28.688373,
+        "longitude": 77.278456
+      }
+    },
+    "totalHours": 9.89,
+    "status": "present",
+    "breaks": [],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.605281Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.605282Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "9dae27cab28a4d9e85ece933"
+    },
+    "user": {
+      "$oid": "6777cee31aea9842fcf0c9e2"
+    },
+    "date": {
+      "$date": "2025-04-09T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-09T08:00:00Z"
+      },
+      "location": {
+        "latitude": 28.608578,
+        "longitude": 77.253276
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-09T17:17:24Z"
+      },
+      "location": {
+        "latitude": 28.750707,
+        "longitude": 77.174642
+      }
+    },
+    "totalHours": 9.29,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "13dc186fc5864e3f9664fff8"
+        },
+        "startTime": {
+          "$date": "2025-04-09T09:54:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-09T10:15:00Z"
+        },
+        "duration": 0.35
+      },
+      {
+        "_id": {
+          "$oid": "8d847aa237d84b22aab8a80a"
+        },
+        "startTime": {
+          "$date": "2025-04-09T10:17:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-09T10:43:24Z"
+        },
+        "duration": 0.44
+      },
+      {
+        "_id": {
+          "$oid": "a2be1be569ad4633857f59c0"
+        },
+        "startTime": {
+          "$date": "2025-04-09T11:15:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-09T11:30:00Z"
+        },
+        "duration": 0.25
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.605361Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.605363Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "42f31a36913d4b049bd1213f"
+    },
+    "user": {
+      "$oid": "6784c241e12fe0ae8dd55e46"
+    },
+    "date": {
+      "$date": "2025-04-29T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-29T08:15:00Z"
+      },
+      "location": {
+        "latitude": 28.740097,
+        "longitude": 77.259472
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-29T16:18:00Z"
+      },
+      "location": {
+        "latitude": 28.646944,
+        "longitude": 77.259651
+      }
+    },
+    "totalHours": 8.05,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "17911d3c41744de69cb34acf"
+        },
+        "startTime": {
+          "$date": "2025-04-29T12:06:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-29T12:36:00Z"
+        },
+        "duration": 0.5
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.605409Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.605411Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "2a63654796b740798cb7371c"
+    },
+    "user": {
+      "$oid": "681b05f9f095501f635801c9"
+    },
+    "date": {
+      "$date": "2025-04-17T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-17T09:45:00Z"
+      },
+      "location": {
+        "latitude": 28.72943,
+        "longitude": 77.122682
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-17T17:36:36Z"
+      },
+      "location": {
+        "latitude": 28.738396,
+        "longitude": 77.239648
+      }
+    },
+    "totalHours": 7.86,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "058dd4a71a13457787bcc73c"
+        },
+        "startTime": {
+          "$date": "2025-04-17T11:23:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-17T11:50:36Z"
+        },
+        "duration": 0.46
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.605457Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.605459Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "37af30f9da0949c2a92e5f26"
+    },
+    "user": {
+      "$oid": "681b05f9f095501f635801c9"
+    },
+    "date": {
+      "$date": "2025-04-29T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-29T10:15:00Z"
+      },
+      "location": {
+        "latitude": 28.600985,
+        "longitude": 77.163521
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-29T19:58:12Z"
+      },
+      "location": {
+        "latitude": 28.744501,
+        "longitude": 77.19444
+      }
+    },
+    "totalHours": 9.72,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "ccb33e50110b483b9ff9f708"
+        },
+        "startTime": {
+          "$date": "2025-04-29T12:01:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-29T12:14:48Z"
+        },
+        "duration": 0.23
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.605504Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.605506Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "d29a1e4ec1e94b52b7b4a263"
+    },
+    "user": {
+      "$oid": "6784c241e12fe0ae8dd55e46"
+    },
+    "date": {
+      "$date": "2025-04-04T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-04T08:00:00Z"
+      },
+      "location": {
+        "latitude": 28.662133,
+        "longitude": 77.283054
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-04T16:54:36Z"
+      },
+      "location": {
+        "latitude": 28.789189,
+        "longitude": 77.15884
+      }
+    },
+    "totalHours": 8.91,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "ef218c44412d48879aca1daa"
+        },
+        "startTime": {
+          "$date": "2025-04-04T09:55:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-04T10:11:12Z"
+        },
+        "duration": 0.27
+      },
+      {
+        "_id": {
+          "$oid": "c4df7e567d2840bfb3d59f41"
+        },
+        "startTime": {
+          "$date": "2025-04-04T11:49:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-04T12:19:00Z"
+        },
+        "duration": 0.5
+      },
+      {
+        "_id": {
+          "$oid": "f50e2e3395264576af8afc6b"
+        },
+        "startTime": {
+          "$date": "2025-04-04T11:21:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-04T11:39:36Z"
+        },
+        "duration": 0.31
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.605578Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.605580Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "8aba17943ad749d0b5f2c1d7"
+    },
+    "user": {
+      "$oid": "6784cdfce12fe0ae8dd56107"
+    },
+    "date": {
+      "$date": "2025-04-14T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-14T08:15:00Z"
+      },
+      "location": {
+        "latitude": 28.640861,
+        "longitude": 77.117693
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-14T17:54:00Z"
+      },
+      "location": {
+        "latitude": 28.704066,
+        "longitude": 77.299176
+      }
+    },
+    "totalHours": 9.65,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "d30ab244d8ba4f2ebdefa2b6"
+        },
+        "startTime": {
+          "$date": "2025-04-14T10:21:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-14T10:34:12Z"
+        },
+        "duration": 0.22
+      },
+      {
+        "_id": {
+          "$oid": "50784b17089e440aaeeee84b"
+        },
+        "startTime": {
+          "$date": "2025-04-14T11:00:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-14T11:25:12Z"
+        },
+        "duration": 0.42
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.605635Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.605637Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "d42d9b97cab54755883a3d4e"
+    },
+    "user": {
+      "$oid": "67ad6dccd3cb49986af559aa"
+    },
+    "date": {
+      "$date": "2025-04-27T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-27T08:30:00Z"
+      },
+      "location": {
+        "latitude": 28.783451,
+        "longitude": 77.178142
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-27T18:12:00Z"
+      },
+      "location": {
+        "latitude": 28.676997,
+        "longitude": 77.139807
+      }
+    },
+    "totalHours": 9.7,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "1748215fe65a4f7680afddcb"
+        },
+        "startTime": {
+          "$date": "2025-04-27T10:46:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-27T11:08:48Z"
+        },
+        "duration": 0.38
+      },
+      {
+        "_id": {
+          "$oid": "1861185fc7e549b4850389ab"
+        },
+        "startTime": {
+          "$date": "2025-04-27T09:36:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-27T10:00:36Z"
+        },
+        "duration": 0.41
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.605695Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.605697Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "fa7f2c0d822a4108abb1e96b"
+    },
+    "user": {
+      "$oid": "6777cee31aea9842fcf0c9e2"
+    },
+    "date": {
+      "$date": "2025-04-04T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-04T08:45:00Z"
+      },
+      "location": {
+        "latitude": 28.623408,
+        "longitude": 77.248747
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-04T16:17:24Z"
+      },
+      "location": {
+        "latitude": 28.709429,
+        "longitude": 77.153602
+      }
+    },
+    "totalHours": 7.54,
+    "status": "present",
+    "breaks": [],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.605820Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.605824Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "21d1c4f0441f4616b2f707f2"
+    },
+    "user": {
+      "$oid": "6784cdfce12fe0ae8dd56107"
+    },
+    "date": {
+      "$date": "2025-04-17T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-17T10:30:00Z"
+      },
+      "location": {
+        "latitude": 28.750029,
+        "longitude": 77.282572
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-17T19:55:12Z"
+      },
+      "location": {
+        "latitude": 28.659322,
+        "longitude": 77.192048
+      }
+    },
+    "totalHours": 9.42,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "f07b99b3d7f5438ba57a33c8"
+        },
+        "startTime": {
+          "$date": "2025-04-17T11:53:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-17T12:11:36Z"
+        },
+        "duration": 0.31
+      },
+      {
+        "_id": {
+          "$oid": "c59287436a38491394c007f2"
+        },
+        "startTime": {
+          "$date": "2025-04-17T11:54:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-17T12:18:00Z"
+        },
+        "duration": 0.4
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.605959Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.605962Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "057699bf81b94644a0c3383d"
+    },
+    "user": {
+      "$oid": "681b05f9f095501f635801c9"
+    },
+    "date": {
+      "$date": "2025-04-30T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-30T08:15:00Z"
+      },
+      "location": {
+        "latitude": 28.773358,
+        "longitude": 77.229966
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-30T16:43:48Z"
+      },
+      "location": {
+        "latitude": 28.798894,
+        "longitude": 77.273257
+      }
+    },
+    "totalHours": 8.48,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "f48411a973344b4b98d3ef61"
+        },
+        "startTime": {
+          "$date": "2025-04-30T09:37:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-30T10:02:12Z"
+        },
+        "duration": 0.42
+      },
+      {
+        "_id": {
+          "$oid": "53aeb01c1ed3413e8321034b"
+        },
+        "startTime": {
+          "$date": "2025-04-30T12:01:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-30T12:25:00Z"
+        },
+        "duration": 0.4
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.606320Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.606326Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "f6eee9b2b8d2405d824b35b3"
+    },
+    "user": {
+      "$oid": "6784c241e12fe0ae8dd55e46"
+    },
+    "date": {
+      "$date": "2025-04-10T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-10T09:15:00Z"
+      },
+      "location": {
+        "latitude": 28.627159,
+        "longitude": 77.267621
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-10T17:33:00Z"
+      },
+      "location": {
+        "latitude": 28.626646,
+        "longitude": 77.153855
+      }
+    },
+    "totalHours": 8.3,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "eb207394e6ed4d5b8c8bf6f6"
+        },
+        "startTime": {
+          "$date": "2025-04-10T11:34:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-10T11:49:00Z"
+        },
+        "duration": 0.25
+      },
+      {
+        "_id": {
+          "$oid": "bcc0f3137a4149dbb22cbcef"
+        },
+        "startTime": {
+          "$date": "2025-04-10T10:20:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-10T10:45:12Z"
+        },
+        "duration": 0.42
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.606412Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.606414Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "7704e4bce5fb456cbf316ebb"
+    },
+    "user": {
+      "$oid": "67861ca48df1fafd50b4af66"
+    },
+    "date": {
+      "$date": "2025-04-09T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-09T09:15:00Z"
+      },
+      "location": {
+        "latitude": 28.75206,
+        "longitude": 77.1452
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-09T18:23:24Z"
+      },
+      "location": {
+        "latitude": 28.751847,
+        "longitude": 77.226145
+      }
+    },
+    "totalHours": 9.14,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "af843384b773425fbc7f876a"
+        },
+        "startTime": {
+          "$date": "2025-04-09T11:05:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-09T11:26:00Z"
+        },
+        "duration": 0.35
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.606470Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.606472Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "69a7c5243d224e8f94e61dfa"
+    },
+    "user": {
+      "$oid": "681b05f9f095501f635801c9"
+    },
+    "date": {
+      "$date": "2025-04-30T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-30T10:45:00Z"
+      },
+      "location": {
+        "latitude": 28.690965,
+        "longitude": 77.273928
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-30T18:29:24Z"
+      },
+      "location": {
+        "latitude": 28.621862,
+        "longitude": 77.207601
+      }
+    },
+    "totalHours": 7.74,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "3faaec5021b4471eb065ab5e"
+        },
+        "startTime": {
+          "$date": "2025-04-30T13:43:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-30T14:07:00Z"
+        },
+        "duration": 0.4
+      },
+      {
+        "_id": {
+          "$oid": "4e5133b6ec504191b0e6966b"
+        },
+        "startTime": {
+          "$date": "2025-04-30T12:27:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-30T12:56:24Z"
+        },
+        "duration": 0.49
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.606539Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.606541Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "f0e7389c90d4421e8c73ade1"
+    },
+    "user": {
+      "$oid": "6784c241e12fe0ae8dd55e46"
+    },
+    "date": {
+      "$date": "2025-04-22T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-22T09:45:00Z"
+      },
+      "location": {
+        "latitude": 28.657412,
+        "longitude": 77.168126
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-22T19:12:36Z"
+      },
+      "location": {
+        "latitude": 28.691164,
+        "longitude": 77.191287
+      }
+    },
+    "totalHours": 9.46,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "a90882fe4c494e16b0017878"
+        },
+        "startTime": {
+          "$date": "2025-04-22T12:58:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-22T13:20:12Z"
+        },
+        "duration": 0.37
+      },
+      {
+        "_id": {
+          "$oid": "7dafae9401214e73b1691b2e"
+        },
+        "startTime": {
+          "$date": "2025-04-22T11:13:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-22T11:35:48Z"
+        },
+        "duration": 0.38
+      },
+      {
+        "_id": {
+          "$oid": "d6a16be3ccc64a9a8ee051bb"
+        },
+        "startTime": {
+          "$date": "2025-04-22T11:37:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-22T11:58:36Z"
+        },
+        "duration": 0.36
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.606611Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.606613Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "927a227a4b5a415080c2bbbd"
+    },
+    "user": {
+      "$oid": "681b05f9f095501f635801c9"
+    },
+    "date": {
+      "$date": "2025-04-25T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-25T09:00:00Z"
+      },
+      "location": {
+        "latitude": 28.697146,
+        "longitude": 77.13349
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-25T18:09:36Z"
+      },
+      "location": {
+        "latitude": 28.796946,
+        "longitude": 77.19594
+      }
+    },
+    "totalHours": 9.16,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "29b54d1e228649158794c41a"
+        },
+        "startTime": {
+          "$date": "2025-04-25T12:23:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-25T12:43:24Z"
+        },
+        "duration": 0.34
+      },
+      {
+        "_id": {
+          "$oid": "70f9b1bec6d343d2acdf21f5"
+        },
+        "startTime": {
+          "$date": "2025-04-25T12:03:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-25T12:21:00Z"
+        },
+        "duration": 0.3
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.606672Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.606674Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "7359a2c51870462f84e2c61f"
+    },
+    "user": {
+      "$oid": "681b05f9f095501f635801c9"
+    },
+    "date": {
+      "$date": "2025-04-11T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-11T10:30:00Z"
+      },
+      "location": {
+        "latitude": 28.688453,
+        "longitude": 77.103754
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-11T18:27:36Z"
+      },
+      "location": {
+        "latitude": 28.772087,
+        "longitude": 77.137723
+      }
+    },
+    "totalHours": 7.96,
+    "status": "present",
+    "breaks": [],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.606708Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.606710Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "1c2c4db3f8cf4ce1b8ed0142"
+    },
+    "user": {
+      "$oid": "6784cdfce12fe0ae8dd56107"
+    },
+    "date": {
+      "$date": "2025-04-28T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-28T09:30:00Z"
+      },
+      "location": {
+        "latitude": 28.606015,
+        "longitude": 77.26241
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-28T19:26:24Z"
+      },
+      "location": {
+        "latitude": 28.622216,
+        "longitude": 77.14018
+      }
+    },
+    "totalHours": 9.94,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "457f37484fb649dfb7192803"
+        },
+        "startTime": {
+          "$date": "2025-04-28T11:59:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-28T12:21:12Z"
+        },
+        "duration": 0.37
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.606766Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.606768Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "12656eab31c94ff1b5b80900"
+    },
+    "user": {
+      "$oid": "6784cdfce12fe0ae8dd56107"
+    },
+    "date": {
+      "$date": "2025-04-29T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-29T08:15:00Z"
+      },
+      "location": {
+        "latitude": 28.686654,
+        "longitude": 77.211228
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-29T17:15:36Z"
+      },
+      "location": {
+        "latitude": 28.665762,
+        "longitude": 77.286021
+      }
+    },
+    "totalHours": 9.01,
+    "status": "present",
+    "breaks": [],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.606822Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.606824Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "7420577a53a44b0195980565"
+    },
+    "user": {
+      "$oid": "67ad6dccd3cb49986af559aa"
+    },
+    "date": {
+      "$date": "2025-04-21T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-21T10:15:00Z"
+      },
+      "location": {
+        "latitude": 28.643348,
+        "longitude": 77.197145
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-21T18:16:12Z"
+      },
+      "location": {
+        "latitude": 28.762908,
+        "longitude": 77.160808
+      }
+    },
+    "totalHours": 8.02,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "d6350d9274814c32993b64d4"
+        },
+        "startTime": {
+          "$date": "2025-04-21T11:42:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-21T11:58:12Z"
+        },
+        "duration": 0.27
+      },
+      {
+        "_id": {
+          "$oid": "fd54e03748e44703aa6fffe4"
+        },
+        "startTime": {
+          "$date": "2025-04-21T13:02:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-21T13:14:00Z"
+        },
+        "duration": 0.2
+      },
+      {
+        "_id": {
+          "$oid": "542a942138a74126b4e41659"
+        },
+        "startTime": {
+          "$date": "2025-04-21T13:00:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-21T13:27:36Z"
+        },
+        "duration": 0.46
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.606893Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.606895Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "e7dc3687484e4551b05c01e3"
+    },
+    "user": {
+      "$oid": "6784c241e12fe0ae8dd55e46"
+    },
+    "date": {
+      "$date": "2025-04-04T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-04T08:00:00Z"
+      },
+      "location": {
+        "latitude": 28.745441,
+        "longitude": 77.188483
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-04T16:23:24Z"
+      },
+      "location": {
+        "latitude": 28.76715,
+        "longitude": 77.201587
+      }
+    },
+    "totalHours": 8.39,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "2812a7ea68fb4252b74473c2"
+        },
+        "startTime": {
+          "$date": "2025-04-04T11:09:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-04T11:22:48Z"
+        },
+        "duration": 0.23
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.606939Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.606941Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "fcd85ffac918495e94980b14"
+    },
+    "user": {
+      "$oid": "6784cdfce12fe0ae8dd56107"
+    },
+    "date": {
+      "$date": "2025-04-03T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-03T09:30:00Z"
+      },
+      "location": {
+        "latitude": 28.737511,
+        "longitude": 77.163892
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-03T17:07:12Z"
+      },
+      "location": {
+        "latitude": 28.661214,
+        "longitude": 77.299665
+      }
+    },
+    "totalHours": 7.62,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "bb5e6c2063444a268c63c7f7"
+        },
+        "startTime": {
+          "$date": "2025-04-03T10:53:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-03T11:17:00Z"
+        },
+        "duration": 0.4
+      },
+      {
+        "_id": {
+          "$oid": "f0065c8bc79941e3b83a709f"
+        },
+        "startTime": {
+          "$date": "2025-04-03T11:18:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-03T11:36:00Z"
+        },
+        "duration": 0.3
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.607175Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.607177Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "f60dc22c802641e0970888a4"
+    },
+    "user": {
+      "$oid": "6784cdfce12fe0ae8dd56107"
+    },
+    "date": {
+      "$date": "2025-04-14T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-14T09:30:00Z"
+      },
+      "location": {
+        "latitude": 28.718712,
+        "longitude": 77.224133
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-14T18:57:00Z"
+      },
+      "location": {
+        "latitude": 28.626913,
+        "longitude": 77.125324
+      }
+    },
+    "totalHours": 9.45,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "8f138c5044f543a09eedd439"
+        },
+        "startTime": {
+          "$date": "2025-04-14T11:34:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-14T12:02:48Z"
+        },
+        "duration": 0.48
+      },
+      {
+        "_id": {
+          "$oid": "0631cfc4c65442f38c6e8139"
+        },
+        "startTime": {
+          "$date": "2025-04-14T12:17:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-14T12:32:00Z"
+        },
+        "duration": 0.25
+      },
+      {
+        "_id": {
+          "$oid": "f7bdd6c8ada847c5ab80fd65"
+        },
+        "startTime": {
+          "$date": "2025-04-14T10:53:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-14T11:09:12Z"
+        },
+        "duration": 0.27
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.607260Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.607263Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "446db9d51292461fa7dc40d3"
+    },
+    "user": {
+      "$oid": "681b05f9f095501f635801c9"
+    },
+    "date": {
+      "$date": "2025-04-20T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-20T09:45:00Z"
+      },
+      "location": {
+        "latitude": 28.745034,
+        "longitude": 77.183992
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-20T18:45:00Z"
+      },
+      "location": {
+        "latitude": 28.703697,
+        "longitude": 77.18875
+      }
+    },
+    "totalHours": 9.0,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "f09e5c9165b34243b2b6b693"
+        },
+        "startTime": {
+          "$date": "2025-04-20T13:23:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-20T13:36:48Z"
+        },
+        "duration": 0.23
+      },
+      {
+        "_id": {
+          "$oid": "64b09a430bf947229badd656"
+        },
+        "startTime": {
+          "$date": "2025-04-20T11:47:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-20T12:17:00Z"
+        },
+        "duration": 0.5
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.607492Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.607495Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "822aa3b2f6cd4a44b425f309"
+    },
+    "user": {
+      "$oid": "67ad6dccd3cb49986af559aa"
+    },
+    "date": {
+      "$date": "2025-04-22T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-22T09:45:00Z"
+      },
+      "location": {
+        "latitude": 28.730059,
+        "longitude": 77.198738
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-22T18:09:36Z"
+      },
+      "location": {
+        "latitude": 28.767361,
+        "longitude": 77.142673
+      }
+    },
+    "totalHours": 8.41,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "c9d7ce27d1dd4e41a481960a"
+        },
+        "startTime": {
+          "$date": "2025-04-22T13:13:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-22T13:41:12Z"
+        },
+        "duration": 0.47
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.607552Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.607554Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "caf47e73fd7241889f2dd0ed"
+    },
+    "user": {
+      "$oid": "6777cee31aea9842fcf0c9e2"
+    },
+    "date": {
+      "$date": "2025-04-21T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-21T09:15:00Z"
+      },
+      "location": {
+        "latitude": 28.746642,
+        "longitude": 77.113145
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-21T18:42:36Z"
+      },
+      "location": {
+        "latitude": 28.789216,
+        "longitude": 77.203091
+      }
+    },
+    "totalHours": 9.46,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "72e5e95fab634bb8a87d22cc"
+        },
+        "startTime": {
+          "$date": "2025-04-21T11:00:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-21T11:20:24Z"
+        },
+        "duration": 0.34
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.607623Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.607625Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "f31cebb545014529a6f98065"
+    },
+    "user": {
+      "$oid": "681b05f9f095501f635801c9"
+    },
+    "date": {
+      "$date": "2025-04-19T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-19T10:00:00Z"
+      },
+      "location": {
+        "latitude": 28.627281,
+        "longitude": 77.247625
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-19T19:10:48Z"
+      },
+      "location": {
+        "latitude": 28.762347,
+        "longitude": 77.162065
+      }
+    },
+    "totalHours": 9.18,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "2f8de4d714ad47ecaf3aef8b"
+        },
+        "startTime": {
+          "$date": "2025-04-19T13:20:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-19T13:35:00Z"
+        },
+        "duration": 0.25
+      },
+      {
+        "_id": {
+          "$oid": "1312331abcdb4b41a52ff898"
+        },
+        "startTime": {
+          "$date": "2025-04-19T11:41:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-19T12:09:48Z"
+        },
+        "duration": 0.48
+      },
+      {
+        "_id": {
+          "$oid": "eb53bf89046a45ff92cfecaa"
+        },
+        "startTime": {
+          "$date": "2025-04-19T11:55:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-19T12:11:48Z"
+        },
+        "duration": 0.28
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.607697Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.607699Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "616b9e375f9a412ebedc641a"
+    },
+    "user": {
+      "$oid": "6777cee31aea9842fcf0c9e2"
+    },
+    "date": {
+      "$date": "2025-04-12T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-12T10:15:00Z"
+      },
+      "location": {
+        "latitude": 28.707569,
+        "longitude": 77.142869
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-12T19:43:12Z"
+      },
+      "location": {
+        "latitude": 28.629897,
+        "longitude": 77.114003
+      }
+    },
+    "totalHours": 9.47,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "a2f6eafd2fc84a31a94d7a85"
+        },
+        "startTime": {
+          "$date": "2025-04-12T13:51:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-12T14:20:24Z"
+        },
+        "duration": 0.49
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.607746Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.607748Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "87b62281199e450aae7058d3"
+    },
+    "user": {
+      "$oid": "67ad6dccd3cb49986af559aa"
+    },
+    "date": {
+      "$date": "2025-04-09T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-09T10:00:00Z"
+      },
+      "location": {
+        "latitude": 28.63294,
+        "longitude": 77.173712
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-09T19:12:36Z"
+      },
+      "location": {
+        "latitude": 28.662869,
+        "longitude": 77.232932
+      }
+    },
+    "totalHours": 9.21,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "d0ceff7c4bd0479b920f236f"
+        },
+        "startTime": {
+          "$date": "2025-04-09T13:15:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-09T13:43:12Z"
+        },
+        "duration": 0.47
+      },
+      {
+        "_id": {
+          "$oid": "073c3fecf1314413a83e7bf3"
+        },
+        "startTime": {
+          "$date": "2025-04-09T12:35:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-09T12:52:24Z"
+        },
+        "duration": 0.29
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.607808Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.607810Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "80bd1098574f47e9bdc628fe"
+    },
+    "user": {
+      "$oid": "67861ca48df1fafd50b4af66"
+    },
+    "date": {
+      "$date": "2025-04-14T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-14T09:30:00Z"
+      },
+      "location": {
+        "latitude": 28.630939,
+        "longitude": 77.222685
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-14T19:21:00Z"
+      },
+      "location": {
+        "latitude": 28.772152,
+        "longitude": 77.274985
+      }
+    },
+    "totalHours": 9.85,
+    "status": "present",
+    "breaks": [],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.607844Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.607846Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "b4b65014e9e44245aeeb8add"
+    },
+    "user": {
+      "$oid": "6784c241e12fe0ae8dd55e46"
+    },
+    "date": {
+      "$date": "2025-04-20T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-20T08:00:00Z"
+      },
+      "location": {
+        "latitude": 28.711974,
+        "longitude": 77.284508
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-20T17:29:24Z"
+      },
+      "location": {
+        "latitude": 28.654602,
+        "longitude": 77.124849
+      }
+    },
+    "totalHours": 9.49,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "91db72547144403bae81a1e2"
+        },
+        "startTime": {
+          "$date": "2025-04-20T09:48:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-20T10:14:24Z"
+        },
+        "duration": 0.44
+      },
+      {
+        "_id": {
+          "$oid": "19ad2c9fa7914b84ae948474"
+        },
+        "startTime": {
+          "$date": "2025-04-20T11:52:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-20T12:09:24Z"
+        },
+        "duration": 0.29
+      },
+      {
+        "_id": {
+          "$oid": "bbb716f230da4ec0bf8712c2"
+        },
+        "startTime": {
+          "$date": "2025-04-20T10:26:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-20T10:47:00Z"
+        },
+        "duration": 0.35
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.607914Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.607918Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "cd42fc25147a462d936a2a3d"
+    },
+    "user": {
+      "$oid": "6784c241e12fe0ae8dd55e46"
+    },
+    "date": {
+      "$date": "2025-04-01T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-01T09:30:00Z"
+      },
+      "location": {
+        "latitude": 28.777288,
+        "longitude": 77.234102
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-01T18:27:00Z"
+      },
+      "location": {
+        "latitude": 28.639004,
+        "longitude": 77.257888
+      }
+    },
+    "totalHours": 8.95,
+    "status": "present",
+    "breaks": [],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.607953Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.607955Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "fc8a236e1d0b4f5dad0b3563"
+    },
+    "user": {
+      "$oid": "6784cdfce12fe0ae8dd56107"
+    },
+    "date": {
+      "$date": "2025-04-24T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-24T10:00:00Z"
+      },
+      "location": {
+        "latitude": 28.786052,
+        "longitude": 77.223514
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-24T19:35:24Z"
+      },
+      "location": {
+        "latitude": 28.663402,
+        "longitude": 77.274734
+      }
+    },
+    "totalHours": 9.59,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "995c92a72fdf420d8d00678d"
+        },
+        "startTime": {
+          "$date": "2025-04-24T11:34:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-24T12:03:24Z"
+        },
+        "duration": 0.49
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.608031Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.608033Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "28a8ac2678f3454b9f0cefa9"
+    },
+    "user": {
+      "$oid": "6777cee31aea9842fcf0c9e2"
+    },
+    "date": {
+      "$date": "2025-04-06T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-06T10:15:00Z"
+      },
+      "location": {
+        "latitude": 28.734023,
+        "longitude": 77.299383
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-06T19:28:48Z"
+      },
+      "location": {
+        "latitude": 28.742953,
+        "longitude": 77.209256
+      }
+    },
+    "totalHours": 9.23,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "1abc72a83880459aafc0d399"
+        },
+        "startTime": {
+          "$date": "2025-04-06T11:29:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-06T11:42:12Z"
+        },
+        "duration": 0.22
+      },
+      {
+        "_id": {
+          "$oid": "227d2651a3474fa98fa12ea9"
+        },
+        "startTime": {
+          "$date": "2025-04-06T13:35:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-06T13:48:12Z"
+        },
+        "duration": 0.22
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.608097Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.608099Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "522445fd63fb41c1ba5434d4"
+    },
+    "user": {
+      "$oid": "681b05f9f095501f635801c9"
+    },
+    "date": {
+      "$date": "2025-04-24T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-24T08:45:00Z"
+      },
+      "location": {
+        "latitude": 28.651928,
+        "longitude": 77.242785
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-24T18:08:24Z"
+      },
+      "location": {
+        "latitude": 28.626474,
+        "longitude": 77.296369
+      }
+    },
+    "totalHours": 9.39,
+    "status": "present",
+    "breaks": [],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.608146Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.608149Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "43c2b3800a9a4373bffbfb5e"
+    },
+    "user": {
+      "$oid": "67ad6dccd3cb49986af559aa"
+    },
+    "date": {
+      "$date": "2025-04-15T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-15T10:15:00Z"
+      },
+      "location": {
+        "latitude": 28.636038,
+        "longitude": 77.162572
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-15T17:54:00Z"
+      },
+      "location": {
+        "latitude": 28.699681,
+        "longitude": 77.279307
+      }
+    },
+    "totalHours": 7.65,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "81cdac3acfe74b9cbfccb9c2"
+        },
+        "startTime": {
+          "$date": "2025-04-15T13:30:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-15T13:45:36Z"
+        },
+        "duration": 0.26
+      },
+      {
+        "_id": {
+          "$oid": "475db7f84739407290515e1e"
+        },
+        "startTime": {
+          "$date": "2025-04-15T12:57:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-15T13:16:12Z"
+        },
+        "duration": 0.32
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.608219Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.608220Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "9763bc36a8c84a8eb517fc40"
+    },
+    "user": {
+      "$oid": "6777cee31aea9842fcf0c9e2"
+    },
+    "date": {
+      "$date": "2025-04-10T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-10T10:45:00Z"
+      },
+      "location": {
+        "latitude": 28.786086,
+        "longitude": 77.20212
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-10T20:16:12Z"
+      },
+      "location": {
+        "latitude": 28.688064,
+        "longitude": 77.216847
+      }
+    },
+    "totalHours": 9.52,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "d6dbf5db575342c8895b03bd"
+        },
+        "startTime": {
+          "$date": "2025-04-10T14:10:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-10T14:22:36Z"
+        },
+        "duration": 0.21
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.608263Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.608265Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "aefa1fa853a942da9877107b"
+    },
+    "user": {
+      "$oid": "681b05f9f095501f635801c9"
+    },
+    "date": {
+      "$date": "2025-04-12T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-12T10:15:00Z"
+      },
+      "location": {
+        "latitude": 28.731581,
+        "longitude": 77.106872
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-12T18:19:48Z"
+      },
+      "location": {
+        "latitude": 28.718666,
+        "longitude": 77.146948
+      }
+    },
+    "totalHours": 8.08,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "83f85aed0f4147e787b71d47"
+        },
+        "startTime": {
+          "$date": "2025-04-12T12:51:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-12T13:20:24Z"
+        },
+        "duration": 0.49
+      },
+      {
+        "_id": {
+          "$oid": "a73402d04c964b8f981b0a03"
+        },
+        "startTime": {
+          "$date": "2025-04-12T12:19:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-12T12:34:36Z"
+        },
+        "duration": 0.26
+      },
+      {
+        "_id": {
+          "$oid": "e6a43492b0f54b598348a609"
+        },
+        "startTime": {
+          "$date": "2025-04-12T11:51:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-12T12:09:00Z"
+        },
+        "duration": 0.3
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.608333Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.608334Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "96120c6f379a452a801b1701"
+    },
+    "user": {
+      "$oid": "6784cdfce12fe0ae8dd56107"
+    },
+    "date": {
+      "$date": "2025-04-26T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-26T08:30:00Z"
+      },
+      "location": {
+        "latitude": 28.689371,
+        "longitude": 77.295995
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-26T16:58:48Z"
+      },
+      "location": {
+        "latitude": 28.643202,
+        "longitude": 77.260531
+      }
+    },
+    "totalHours": 8.48,
+    "status": "present",
+    "breaks": [],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.608368Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.608370Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "abd5e7140cd441a981e0c772"
+    },
+    "user": {
+      "$oid": "67861ca48df1fafd50b4af66"
+    },
+    "date": {
+      "$date": "2025-04-01T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-01T09:45:00Z"
+      },
+      "location": {
+        "latitude": 28.725258,
+        "longitude": 77.260051
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-01T19:31:12Z"
+      },
+      "location": {
+        "latitude": 28.75601,
+        "longitude": 77.236205
+      }
+    },
+    "totalHours": 9.77,
+    "status": "present",
+    "breaks": [],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.608424Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.608426Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "744444c2d6bb4ba2848bdbe2"
+    },
+    "user": {
+      "$oid": "6784c241e12fe0ae8dd55e46"
+    },
+    "date": {
+      "$date": "2025-04-03T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-03T10:15:00Z"
+      },
+      "location": {
+        "latitude": 28.642929,
+        "longitude": 77.145421
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-03T17:49:48Z"
+      },
+      "location": {
+        "latitude": 28.707584,
+        "longitude": 77.194954
+      }
+    },
+    "totalHours": 7.58,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "996f71bdfbec4a4a8f111eb8"
+        },
+        "startTime": {
+          "$date": "2025-04-03T12:06:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-03T12:24:36Z"
+        },
+        "duration": 0.31
+      },
+      {
+        "_id": {
+          "$oid": "bc8a04c96e2c4aa0a2852bf9"
+        },
+        "startTime": {
+          "$date": "2025-04-03T11:25:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-03T11:39:24Z"
+        },
+        "duration": 0.24
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.608687Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.608692Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "3df2f21403104871a2b58ab1"
+    },
+    "user": {
+      "$oid": "681b05f9f095501f635801c9"
+    },
+    "date": {
+      "$date": "2025-04-12T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-12T10:00:00Z"
+      },
+      "location": {
+        "latitude": 28.614664,
+        "longitude": 77.280821
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-12T17:30:36Z"
+      },
+      "location": {
+        "latitude": 28.661518,
+        "longitude": 77.23021
+      }
+    },
+    "totalHours": 7.51,
+    "status": "present",
+    "breaks": [],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.608764Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.608770Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "bdfed1a125f34a5392723b00"
+    },
+    "user": {
+      "$oid": "67ad6dccd3cb49986af559aa"
+    },
+    "date": {
+      "$date": "2025-04-15T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-15T09:15:00Z"
+      },
+      "location": {
+        "latitude": 28.63597,
+        "longitude": 77.254393
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-15T16:51:00Z"
+      },
+      "location": {
+        "latitude": 28.656706,
+        "longitude": 77.263537
+      }
+    },
+    "totalHours": 7.6,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "797739dc9d9a436da3baff2e"
+        },
+        "startTime": {
+          "$date": "2025-04-15T11:10:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-15T11:26:12Z"
+        },
+        "duration": 0.27
+      },
+      {
+        "_id": {
+          "$oid": "bf68b30620cc4df8991ea1a9"
+        },
+        "startTime": {
+          "$date": "2025-04-15T13:10:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-15T13:37:00Z"
+        },
+        "duration": 0.45
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.608908Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.608912Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "b632f98bd10b4e2bbbfd4464"
+    },
+    "user": {
+      "$oid": "6784c241e12fe0ae8dd55e46"
+    },
+    "date": {
+      "$date": "2025-04-24T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-24T08:30:00Z"
+      },
+      "location": {
+        "latitude": 28.763709,
+        "longitude": 77.175725
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-24T18:27:00Z"
+      },
+      "location": {
+        "latitude": 28.780183,
+        "longitude": 77.268704
+      }
+    },
+    "totalHours": 9.95,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "4064271021404501a4a9419b"
+        },
+        "startTime": {
+          "$date": "2025-04-24T11:36:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-24T11:50:24Z"
+        },
+        "duration": 0.24
+      },
+      {
+        "_id": {
+          "$oid": "0b14feeedc6e4f67b0a5e56d"
+        },
+        "startTime": {
+          "$date": "2025-04-24T11:41:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-24T11:56:36Z"
+        },
+        "duration": 0.26
+      },
+      {
+        "_id": {
+          "$oid": "a278b283cf494e26b6573eee"
+        },
+        "startTime": {
+          "$date": "2025-04-24T10:50:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-24T11:11:00Z"
+        },
+        "duration": 0.35
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.609079Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.609083Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "e2f85bfed6c740f8a09c5544"
+    },
+    "user": {
+      "$oid": "6777cee31aea9842fcf0c9e2"
+    },
+    "date": {
+      "$date": "2025-04-08T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-08T09:15:00Z"
+      },
+      "location": {
+        "latitude": 28.659859,
+        "longitude": 77.174008
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-08T17:16:48Z"
+      },
+      "location": {
+        "latitude": 28.675852,
+        "longitude": 77.180072
+      }
+    },
+    "totalHours": 8.03,
+    "status": "present",
+    "breaks": [],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.609157Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.609162Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "352ba00b4ca4425ea54164ac"
+    },
+    "user": {
+      "$oid": "67861ca48df1fafd50b4af66"
+    },
+    "date": {
+      "$date": "2025-04-27T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-27T08:00:00Z"
+      },
+      "location": {
+        "latitude": 28.716211,
+        "longitude": 77.187114
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-27T17:45:36Z"
+      },
+      "location": {
+        "latitude": 28.744953,
+        "longitude": 77.239655
+      }
+    },
+    "totalHours": 9.76,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "6005086624774e3392df8ec8"
+        },
+        "startTime": {
+          "$date": "2025-04-27T11:03:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-27T11:32:24Z"
+        },
+        "duration": 0.49
+      },
+      {
+        "_id": {
+          "$oid": "7dc4beab7aa7406a82ee45ca"
+        },
+        "startTime": {
+          "$date": "2025-04-27T09:15:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-27T09:35:24Z"
+        },
+        "duration": 0.34
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.609304Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.609307Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "824bfcc433f34f2fb61da0cf"
+    },
+    "user": {
+      "$oid": "67861ca48df1fafd50b4af66"
+    },
+    "date": {
+      "$date": "2025-04-12T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-12T08:00:00Z"
+      },
+      "location": {
+        "latitude": 28.697796,
+        "longitude": 77.166568
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-12T16:38:24Z"
+      },
+      "location": {
+        "latitude": 28.701068,
+        "longitude": 77.160159
+      }
+    },
+    "totalHours": 8.64,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "99ecfe656a4b42efa28444d7"
+        },
+        "startTime": {
+          "$date": "2025-04-12T09:45:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-12T10:06:00Z"
+        },
+        "duration": 0.35
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.609387Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.609391Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "7f4e2973c7b64075af99d05a"
+    },
+    "user": {
+      "$oid": "6784c241e12fe0ae8dd55e46"
+    },
+    "date": {
+      "$date": "2025-05-01T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-05-01T09:45:00Z"
+      },
+      "location": {
+        "latitude": 28.769691,
+        "longitude": 77.245849
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-05-01T18:55:12Z"
+      },
+      "location": {
+        "latitude": 28.714196,
+        "longitude": 77.113226
+      }
+    },
+    "totalHours": 9.17,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "df3bf5adc87a4e909bcb58f2"
+        },
+        "startTime": {
+          "$date": "2025-05-01T13:09:00Z"
+        },
+        "endTime": {
+          "$date": "2025-05-01T13:31:48Z"
+        },
+        "duration": 0.38
+      },
+      {
+        "_id": {
+          "$oid": "b48bda3799884d9d9ee4444e"
+        },
+        "startTime": {
+          "$date": "2025-05-01T13:17:00Z"
+        },
+        "endTime": {
+          "$date": "2025-05-01T13:41:00Z"
+        },
+        "duration": 0.4
+      },
+      {
+        "_id": {
+          "$oid": "812e302f57844f3da4bafbaa"
+        },
+        "startTime": {
+          "$date": "2025-05-01T11:58:00Z"
+        },
+        "endTime": {
+          "$date": "2025-05-01T12:13:36Z"
+        },
+        "duration": 0.26
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.609697Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.609700Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "4e800bfa9cb7487dac42a83e"
+    },
+    "user": {
+      "$oid": "681b05f9f095501f635801c9"
+    },
+    "date": {
+      "$date": "2025-04-20T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-20T10:00:00Z"
+      },
+      "location": {
+        "latitude": 28.630292,
+        "longitude": 77.277971
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-20T18:49:48Z"
+      },
+      "location": {
+        "latitude": 28.660027,
+        "longitude": 77.156733
+      }
+    },
+    "totalHours": 8.83,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "b5087bf3bb1c472da680f9dd"
+        },
+        "startTime": {
+          "$date": "2025-04-20T13:15:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-20T13:34:48Z"
+        },
+        "duration": 0.33
+      },
+      {
+        "_id": {
+          "$oid": "0fa56ef7644848d49bba4df8"
+        },
+        "startTime": {
+          "$date": "2025-04-20T13:00:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-20T13:14:24Z"
+        },
+        "duration": 0.24
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.609785Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.609787Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "fc6853974b6c4800ad63d675"
+    },
+    "user": {
+      "$oid": "681b05f9f095501f635801c9"
+    },
+    "date": {
+      "$date": "2025-04-12T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-12T09:15:00Z"
+      },
+      "location": {
+        "latitude": 28.747293,
+        "longitude": 77.24616
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-12T18:51:36Z"
+      },
+      "location": {
+        "latitude": 28.665584,
+        "longitude": 77.202867
+      }
+    },
+    "totalHours": 9.61,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "66ce552adcd64aa6ad009f11"
+        },
+        "startTime": {
+          "$date": "2025-04-12T12:09:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-12T12:33:00Z"
+        },
+        "duration": 0.4
+      },
+      {
+        "_id": {
+          "$oid": "a1e68c85a964474e956a651b"
+        },
+        "startTime": {
+          "$date": "2025-04-12T11:23:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-12T11:50:00Z"
+        },
+        "duration": 0.45
+      },
+      {
+        "_id": {
+          "$oid": "39d2a61ee7e642b898f245ee"
+        },
+        "startTime": {
+          "$date": "2025-04-12T12:54:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-12T13:08:24Z"
+        },
+        "duration": 0.24
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.609860Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.609866Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "8c3bc04ccb9d4293b7769c11"
+    },
+    "user": {
+      "$oid": "681b05f9f095501f635801c9"
+    },
+    "date": {
+      "$date": "2025-05-01T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-05-01T08:45:00Z"
+      },
+      "location": {
+        "latitude": 28.660752,
+        "longitude": 77.279964
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-05-01T17:51:00Z"
+      },
+      "location": {
+        "latitude": 28.650012,
+        "longitude": 77.209645
+      }
+    },
+    "totalHours": 9.1,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "3dd6c060675c4a5c9123f9fb"
+        },
+        "startTime": {
+          "$date": "2025-05-01T09:56:00Z"
+        },
+        "endTime": {
+          "$date": "2025-05-01T10:11:00Z"
+        },
+        "duration": 0.25
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.609923Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.609925Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "4cd498398bca4218bbb0d16d"
+    },
+    "user": {
+      "$oid": "6784c241e12fe0ae8dd55e46"
+    },
+    "date": {
+      "$date": "2025-04-06T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-06T08:45:00Z"
+      },
+      "location": {
+        "latitude": 28.606765,
+        "longitude": 77.236026
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-06T18:06:00Z"
+      },
+      "location": {
+        "latitude": 28.683917,
+        "longitude": 77.181668
+      }
+    },
+    "totalHours": 9.35,
+    "status": "present",
+    "breaks": [],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.609976Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.609978Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "7509a237915b44c9bfcb172d"
+    },
+    "user": {
+      "$oid": "681b05f9f095501f635801c9"
+    },
+    "date": {
+      "$date": "2025-04-17T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-17T10:30:00Z"
+      },
+      "location": {
+        "latitude": 28.777317,
+        "longitude": 77.227197
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-17T20:27:00Z"
+      },
+      "location": {
+        "latitude": 28.779036,
+        "longitude": 77.147479
+      }
+    },
+    "totalHours": 9.95,
+    "status": "present",
+    "breaks": [],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.610022Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.610028Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "435edc2dcf3e4a539f22ead2"
+    },
+    "user": {
+      "$oid": "6784cdfce12fe0ae8dd56107"
+    },
+    "date": {
+      "$date": "2025-04-19T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-19T10:30:00Z"
+      },
+      "location": {
+        "latitude": 28.60216,
+        "longitude": 77.170816
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-19T19:41:24Z"
+      },
+      "location": {
+        "latitude": 28.737689,
+        "longitude": 77.119615
+      }
+    },
+    "totalHours": 9.19,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "8e063912d9de45ee926410ce"
+        },
+        "startTime": {
+          "$date": "2025-04-19T14:05:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-19T14:23:00Z"
+        },
+        "duration": 0.3
+      },
+      {
+        "_id": {
+          "$oid": "6f823341dfc24412bb78fd22"
+        },
+        "startTime": {
+          "$date": "2025-04-19T13:24:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-19T13:39:36Z"
+        },
+        "duration": 0.26
+      },
+      {
+        "_id": {
+          "$oid": "de4fd4404f5340cf8a917a18"
+        },
+        "startTime": {
+          "$date": "2025-04-19T13:05:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-19T13:24:48Z"
+        },
+        "duration": 0.33
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.611329Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.611335Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "78c4f5a9e53744ecbe347543"
+    },
+    "user": {
+      "$oid": "67ad6dccd3cb49986af559aa"
+    },
+    "date": {
+      "$date": "2025-04-20T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-20T10:15:00Z"
+      },
+      "location": {
+        "latitude": 28.688207,
+        "longitude": 77.14189
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-20T17:55:12Z"
+      },
+      "location": {
+        "latitude": 28.740902,
+        "longitude": 77.118382
+      }
+    },
+    "totalHours": 7.67,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "5a1f1641bb09426a92c690f6"
+        },
+        "startTime": {
+          "$date": "2025-04-20T13:37:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-20T13:54:24Z"
+        },
+        "duration": 0.29
+      },
+      {
+        "_id": {
+          "$oid": "086d13a68c644b14a0a1eebb"
+        },
+        "startTime": {
+          "$date": "2025-04-20T11:37:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-20T11:49:36Z"
+        },
+        "duration": 0.21
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.611627Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.611631Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "c392c55ff8f5481e91834fc2"
+    },
+    "user": {
+      "$oid": "6784c241e12fe0ae8dd55e46"
+    },
+    "date": {
+      "$date": "2025-04-08T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-08T10:00:00Z"
+      },
+      "location": {
+        "latitude": 28.679912,
+        "longitude": 77.25939
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-08T18:37:48Z"
+      },
+      "location": {
+        "latitude": 28.753398,
+        "longitude": 77.132324
+      }
+    },
+    "totalHours": 8.63,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "4219d6fc141e49ada87e60e0"
+        },
+        "startTime": {
+          "$date": "2025-04-08T13:59:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-08T14:11:36Z"
+        },
+        "duration": 0.21
+      },
+      {
+        "_id": {
+          "$oid": "e42ea0ab083a462780c0642f"
+        },
+        "startTime": {
+          "$date": "2025-04-08T13:05:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-08T13:21:48Z"
+        },
+        "duration": 0.28
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.611959Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.611962Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "b1690bf8ddbb41609514ace4"
+    },
+    "user": {
+      "$oid": "681b05f9f095501f635801c9"
+    },
+    "date": {
+      "$date": "2025-04-15T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-15T09:30:00Z"
+      },
+      "location": {
+        "latitude": 28.753535,
+        "longitude": 77.251119
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-15T18:48:00Z"
+      },
+      "location": {
+        "latitude": 28.713882,
+        "longitude": 77.253192
+      }
+    },
+    "totalHours": 9.3,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "1f5a986f99b74f6092cdb572"
+        },
+        "startTime": {
+          "$date": "2025-04-15T12:26:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-15T12:52:24Z"
+        },
+        "duration": 0.44
+      },
+      {
+        "_id": {
+          "$oid": "d13fda9ef365487aa1cbe441"
+        },
+        "startTime": {
+          "$date": "2025-04-15T13:05:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-15T13:24:48Z"
+        },
+        "duration": 0.33
+      },
+      {
+        "_id": {
+          "$oid": "9ab4c8fda5414aa2bfeb4016"
+        },
+        "startTime": {
+          "$date": "2025-04-15T12:45:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-15T13:06:00Z"
+        },
+        "duration": 0.35
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.612254Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.612256Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "bb32fbaceebb41e3ab4a686d"
+    },
+    "user": {
+      "$oid": "6777cee31aea9842fcf0c9e2"
+    },
+    "date": {
+      "$date": "2025-04-16T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-16T08:15:00Z"
+      },
+      "location": {
+        "latitude": 28.639624,
+        "longitude": 77.138684
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-16T17:27:00Z"
+      },
+      "location": {
+        "latitude": 28.601324,
+        "longitude": 77.164001
+      }
+    },
+    "totalHours": 9.2,
+    "status": "present",
+    "breaks": [],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.612306Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.612310Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "4065b42d86994600bc7296cb"
+    },
+    "user": {
+      "$oid": "67ad6dccd3cb49986af559aa"
+    },
+    "date": {
+      "$date": "2025-04-23T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-23T09:00:00Z"
+      },
+      "location": {
+        "latitude": 28.637231,
+        "longitude": 77.164407
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-23T16:40:48Z"
+      },
+      "location": {
+        "latitude": 28.607679,
+        "longitude": 77.145438
+      }
+    },
+    "totalHours": 7.68,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "cb4ae77b3c634addb3699d01"
+        },
+        "startTime": {
+          "$date": "2025-04-23T11:46:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-23T12:04:36Z"
+        },
+        "duration": 0.31
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.612961Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.612965Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "adb6e021584443f6a239f2de"
+    },
+    "user": {
+      "$oid": "6784cdfce12fe0ae8dd56107"
+    },
+    "date": {
+      "$date": "2025-04-19T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-19T10:45:00Z"
+      },
+      "location": {
+        "latitude": 28.745501,
+        "longitude": 77.141489
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-19T19:30:00Z"
+      },
+      "location": {
+        "latitude": 28.619544,
+        "longitude": 77.27585
+      }
+    },
+    "totalHours": 8.75,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "5a2d72c153e04e64a9ad560b"
+        },
+        "startTime": {
+          "$date": "2025-04-19T12:00:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-19T12:19:48Z"
+        },
+        "duration": 0.33
+      },
+      {
+        "_id": {
+          "$oid": "4ab38a655d7c4ec48d2c9a11"
+        },
+        "startTime": {
+          "$date": "2025-04-19T14:02:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-19T14:28:24Z"
+        },
+        "duration": 0.44
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.613108Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.613110Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "7853c80b2f394a3fa30f49c5"
+    },
+    "user": {
+      "$oid": "67861ca48df1fafd50b4af66"
+    },
+    "date": {
+      "$date": "2025-04-06T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-06T09:30:00Z"
+      },
+      "location": {
+        "latitude": 28.620624,
+        "longitude": 77.126742
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-06T17:50:24Z"
+      },
+      "location": {
+        "latitude": 28.760052,
+        "longitude": 77.213758
+      }
+    },
+    "totalHours": 8.34,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "b87e3a7ddecc47878e91e92d"
+        },
+        "startTime": {
+          "$date": "2025-04-06T13:16:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-06T13:43:36Z"
+        },
+        "duration": 0.46
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.613318Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.613321Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "53bc90675e1d4be4b56c3926"
+    },
+    "user": {
+      "$oid": "6784cdfce12fe0ae8dd56107"
+    },
+    "date": {
+      "$date": "2025-05-01T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-05-01T10:15:00Z"
+      },
+      "location": {
+        "latitude": 28.651578,
+        "longitude": 77.200964
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-05-01T19:36:36Z"
+      },
+      "location": {
+        "latitude": 28.726202,
+        "longitude": 77.163932
+      }
+    },
+    "totalHours": 9.36,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "874aef62b93c4887a8067b0e"
+        },
+        "startTime": {
+          "$date": "2025-05-01T11:27:00Z"
+        },
+        "endTime": {
+          "$date": "2025-05-01T11:48:00Z"
+        },
+        "duration": 0.35
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.613407Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.613411Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "a44ecccea5ff46febf96fd01"
+    },
+    "user": {
+      "$oid": "6784cdfce12fe0ae8dd56107"
+    },
+    "date": {
+      "$date": "2025-04-01T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-01T10:45:00Z"
+      },
+      "location": {
+        "latitude": 28.691953,
+        "longitude": 77.175444
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-01T19:53:24Z"
+      },
+      "location": {
+        "latitude": 28.786235,
+        "longitude": 77.278653
+      }
+    },
+    "totalHours": 9.14,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "5ee4420f98c6490abfdd1c7e"
+        },
+        "startTime": {
+          "$date": "2025-04-01T14:09:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-01T14:27:00Z"
+        },
+        "duration": 0.3
+      },
+      {
+        "_id": {
+          "$oid": "db26d8ed5d274040aba0f63b"
+        },
+        "startTime": {
+          "$date": "2025-04-01T12:34:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-01T12:57:24Z"
+        },
+        "duration": 0.39
+      },
+      {
+        "_id": {
+          "$oid": "b7700eced07c48e0b1f8f293"
+        },
+        "startTime": {
+          "$date": "2025-04-01T13:17:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-01T13:46:24Z"
+        },
+        "duration": 0.49
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.614033Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.614203Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "9586587e87ea4c91b30d21c3"
+    },
+    "user": {
+      "$oid": "6777cee31aea9842fcf0c9e2"
+    },
+    "date": {
+      "$date": "2025-04-22T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-22T10:15:00Z"
+      },
+      "location": {
+        "latitude": 28.685406,
+        "longitude": 77.237165
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-22T18:36:36Z"
+      },
+      "location": {
+        "latitude": 28.753111,
+        "longitude": 77.133146
+      }
+    },
+    "totalHours": 8.36,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "c8baf9a624ef41818eea44c2"
+        },
+        "startTime": {
+          "$date": "2025-04-22T13:27:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-22T13:43:12Z"
+        },
+        "duration": 0.27
+      },
+      {
+        "_id": {
+          "$oid": "20547c094b9d4083aa71627a"
+        },
+        "startTime": {
+          "$date": "2025-04-22T11:15:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-22T11:33:00Z"
+        },
+        "duration": 0.3
+      },
+      {
+        "_id": {
+          "$oid": "88d12e9c8ed445f4b65c10c3"
+        },
+        "startTime": {
+          "$date": "2025-04-22T12:30:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-22T12:50:24Z"
+        },
+        "duration": 0.34
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.614561Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.614564Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "58f0d21f2b2c4707b0a3eb64"
+    },
+    "user": {
+      "$oid": "67861ca48df1fafd50b4af66"
+    },
+    "date": {
+      "$date": "2025-04-04T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-04T08:30:00Z"
+      },
+      "location": {
+        "latitude": 28.746366,
+        "longitude": 77.211021
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-04T18:27:36Z"
+      },
+      "location": {
+        "latitude": 28.769135,
+        "longitude": 77.138947
+      }
+    },
+    "totalHours": 9.96,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "83ebaf82a3454f4097f32a92"
+        },
+        "startTime": {
+          "$date": "2025-04-04T11:33:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-04T11:49:48Z"
+        },
+        "duration": 0.28
+      },
+      {
+        "_id": {
+          "$oid": "8cb1b911df0343309a0926ca"
+        },
+        "startTime": {
+          "$date": "2025-04-04T09:31:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-04T09:44:48Z"
+        },
+        "duration": 0.23
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.614682Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.614684Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "a079c32a22cb4fa69ec9631b"
+    },
+    "user": {
+      "$oid": "6784c241e12fe0ae8dd55e46"
+    },
+    "date": {
+      "$date": "2025-04-06T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-06T10:30:00Z"
+      },
+      "location": {
+        "latitude": 28.739597,
+        "longitude": 77.119974
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-06T19:34:48Z"
+      },
+      "location": {
+        "latitude": 28.710413,
+        "longitude": 77.13603
+      }
+    },
+    "totalHours": 9.08,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "e53d9f0f1e9949c4a855bbd7"
+        },
+        "startTime": {
+          "$date": "2025-04-06T12:12:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-06T12:39:00Z"
+        },
+        "duration": 0.45
+      },
+      {
+        "_id": {
+          "$oid": "025d2682f6e343958f0c836d"
+        },
+        "startTime": {
+          "$date": "2025-04-06T13:42:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-06T13:58:48Z"
+        },
+        "duration": 0.28
+      },
+      {
+        "_id": {
+          "$oid": "0ec37fa6c74c466f81c209ff"
+        },
+        "startTime": {
+          "$date": "2025-04-06T12:03:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-06T12:15:36Z"
+        },
+        "duration": 0.21
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.615205Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.615208Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "adf7484d42914fb49a9e83c1"
+    },
+    "user": {
+      "$oid": "681b05f9f095501f635801c9"
+    },
+    "date": {
+      "$date": "2025-04-02T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-02T08:30:00Z"
+      },
+      "location": {
+        "latitude": 28.668442,
+        "longitude": 77.27303
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-02T17:34:12Z"
+      },
+      "location": {
+        "latitude": 28.722772,
+        "longitude": 77.292114
+      }
+    },
+    "totalHours": 9.07,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "6bf5a786707047e690290d92"
+        },
+        "startTime": {
+          "$date": "2025-04-02T11:19:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-02T11:35:12Z"
+        },
+        "duration": 0.27
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.615344Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.615348Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "9d25943075524eb886ad739c"
+    },
+    "user": {
+      "$oid": "6777cee31aea9842fcf0c9e2"
+    },
+    "date": {
+      "$date": "2025-04-20T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-20T10:15:00Z"
+      },
+      "location": {
+        "latitude": 28.697583,
+        "longitude": 77.255707
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-20T18:49:48Z"
+      },
+      "location": {
+        "latitude": 28.606753,
+        "longitude": 77.266254
+      }
+    },
+    "totalHours": 8.58,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "4b74cfa5b6bf408bac0f1831"
+        },
+        "startTime": {
+          "$date": "2025-04-20T13:18:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-20T13:47:24Z"
+        },
+        "duration": 0.49
+      },
+      {
+        "_id": {
+          "$oid": "ee95bf5901b341a2ac43e383"
+        },
+        "startTime": {
+          "$date": "2025-04-20T12:54:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-20T13:13:12Z"
+        },
+        "duration": 0.32
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.615448Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.615452Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "3366872271094f0f9e7dabfc"
+    },
+    "user": {
+      "$oid": "681b05f9f095501f635801c9"
+    },
+    "date": {
+      "$date": "2025-04-04T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-04T09:30:00Z"
+      },
+      "location": {
+        "latitude": 28.69234,
+        "longitude": 77.207841
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-04T18:14:24Z"
+      },
+      "location": {
+        "latitude": 28.699943,
+        "longitude": 77.207662
+      }
+    },
+    "totalHours": 8.74,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "e890c47594074272b47a8033"
+        },
+        "startTime": {
+          "$date": "2025-04-04T13:15:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-04T13:36:36Z"
+        },
+        "duration": 0.36
+      },
+      {
+        "_id": {
+          "$oid": "0e9bd7cfa2a74a029b9d524e"
+        },
+        "startTime": {
+          "$date": "2025-04-04T11:50:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-04T12:06:48Z"
+        },
+        "duration": 0.28
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.615889Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.615894Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "89b11f2917b94085a3bacafd"
+    },
+    "user": {
+      "$oid": "67861ca48df1fafd50b4af66"
+    },
+    "date": {
+      "$date": "2025-04-24T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-24T10:45:00Z"
+      },
+      "location": {
+        "latitude": 28.760765,
+        "longitude": 77.276334
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-24T18:50:24Z"
+      },
+      "location": {
+        "latitude": 28.785083,
+        "longitude": 77.225422
+      }
+    },
+    "totalHours": 8.09,
+    "status": "present",
+    "breaks": [],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.615964Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.615967Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "182736df1fc94ce6b1eda782"
+    },
+    "user": {
+      "$oid": "6777cee31aea9842fcf0c9e2"
+    },
+    "date": {
+      "$date": "2025-04-29T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-29T08:00:00Z"
+      },
+      "location": {
+        "latitude": 28.621407,
+        "longitude": 77.258921
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-29T16:36:00Z"
+      },
+      "location": {
+        "latitude": 28.728159,
+        "longitude": 77.117235
+      }
+    },
+    "totalHours": 8.6,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "08b60d4c2e38451086ce308e"
+        },
+        "startTime": {
+          "$date": "2025-04-29T09:49:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-29T10:03:24Z"
+        },
+        "duration": 0.24
+      },
+      {
+        "_id": {
+          "$oid": "b396ef3a37ac4fd2b89a4776"
+        },
+        "startTime": {
+          "$date": "2025-04-29T10:43:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-29T11:01:36Z"
+        },
+        "duration": 0.31
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.616076Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.616079Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "162398e90c444fc08f63eaaa"
+    },
+    "user": {
+      "$oid": "6777cee31aea9842fcf0c9e2"
+    },
+    "date": {
+      "$date": "2025-04-12T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-12T10:00:00Z"
+      },
+      "location": {
+        "latitude": 28.745674,
+        "longitude": 77.146361
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-12T17:37:12Z"
+      },
+      "location": {
+        "latitude": 28.677989,
+        "longitude": 77.103678
+      }
+    },
+    "totalHours": 7.62,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "95a5010e02d9403c91787767"
+        },
+        "startTime": {
+          "$date": "2025-04-12T11:52:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-12T12:10:00Z"
+        },
+        "duration": 0.3
+      },
+      {
+        "_id": {
+          "$oid": "3fbab109a5b54952b5d0ff89"
+        },
+        "startTime": {
+          "$date": "2025-04-12T11:31:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-12T11:43:36Z"
+        },
+        "duration": 0.21
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.616205Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.616207Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "f1c88a76ef8847b3936dab6d"
+    },
+    "user": {
+      "$oid": "681b05f9f095501f635801c9"
+    },
+    "date": {
+      "$date": "2025-04-05T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-05T09:45:00Z"
+      },
+      "location": {
+        "latitude": 28.787602,
+        "longitude": 77.231051
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-05T19:00:00Z"
+      },
+      "location": {
+        "latitude": 28.621078,
+        "longitude": 77.204331
+      }
+    },
+    "totalHours": 9.25,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "f417a3a8835e4ef0a720e5e6"
+        },
+        "startTime": {
+          "$date": "2025-04-05T11:44:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-05T12:02:00Z"
+        },
+        "duration": 0.3
+      },
+      {
+        "_id": {
+          "$oid": "df92ac8b3fdf46d3bb6e20d1"
+        },
+        "startTime": {
+          "$date": "2025-04-05T12:06:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-05T12:35:24Z"
+        },
+        "duration": 0.49
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.616479Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.616484Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "fdf3201b162f4e27a7177032"
+    },
+    "user": {
+      "$oid": "67861ca48df1fafd50b4af66"
+    },
+    "date": {
+      "$date": "2025-04-11T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-11T10:30:00Z"
+      },
+      "location": {
+        "latitude": 28.682108,
+        "longitude": 77.174275
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-11T19:22:48Z"
+      },
+      "location": {
+        "latitude": 28.632028,
+        "longitude": 77.143336
+      }
+    },
+    "totalHours": 8.88,
+    "status": "present",
+    "breaks": [],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.616552Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.616555Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "f3738f0e08db4e53af517cc9"
+    },
+    "user": {
+      "$oid": "6777cee31aea9842fcf0c9e2"
+    },
+    "date": {
+      "$date": "2025-04-30T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-30T09:45:00Z"
+      },
+      "location": {
+        "latitude": 28.652148,
+        "longitude": 77.124934
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-30T17:58:12Z"
+      },
+      "location": {
+        "latitude": 28.789409,
+        "longitude": 77.140729
+      }
+    },
+    "totalHours": 8.22,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "56cc2c6f5b024b5cb4068c32"
+        },
+        "startTime": {
+          "$date": "2025-04-30T12:47:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-30T13:03:12Z"
+        },
+        "duration": 0.27
+      },
+      {
+        "_id": {
+          "$oid": "2d1b8f7e4d8047a3923635c9"
+        },
+        "startTime": {
+          "$date": "2025-04-30T11:43:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-30T11:55:00Z"
+        },
+        "duration": 0.2
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.616996Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.617007Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "598ec49a6895411f8231a449"
+    },
+    "user": {
+      "$oid": "6784c241e12fe0ae8dd55e46"
+    },
+    "date": {
+      "$date": "2025-04-25T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-25T09:45:00Z"
+      },
+      "location": {
+        "latitude": 28.637869,
+        "longitude": 77.276725
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-25T19:00:36Z"
+      },
+      "location": {
+        "latitude": 28.796534,
+        "longitude": 77.226462
+      }
+    },
+    "totalHours": 9.26,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "a0b687ecd36047459483271d"
+        },
+        "startTime": {
+          "$date": "2025-04-25T11:35:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-25T11:51:48Z"
+        },
+        "duration": 0.28
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.617110Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.617113Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "52eaccf9da834eaa9c40e70b"
+    },
+    "user": {
+      "$oid": "6784cdfce12fe0ae8dd56107"
+    },
+    "date": {
+      "$date": "2025-04-08T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-08T08:00:00Z"
+      },
+      "location": {
+        "latitude": 28.776212,
+        "longitude": 77.227991
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-08T16:50:24Z"
+      },
+      "location": {
+        "latitude": 28.771314,
+        "longitude": 77.235982
+      }
+    },
+    "totalHours": 8.84,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "60d76081f26c4ad694236e61"
+        },
+        "startTime": {
+          "$date": "2025-04-08T11:00:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-08T11:14:24Z"
+        },
+        "duration": 0.24
+      },
+      {
+        "_id": {
+          "$oid": "de3dc88d31cc4556bfcfbf86"
+        },
+        "startTime": {
+          "$date": "2025-04-08T10:42:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-08T11:06:00Z"
+        },
+        "duration": 0.4
+      },
+      {
+        "_id": {
+          "$oid": "85e66fc653214c1a854d44ea"
+        },
+        "startTime": {
+          "$date": "2025-04-08T11:13:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-08T11:42:24Z"
+        },
+        "duration": 0.49
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.617391Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.617394Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "52e9c2f0d0de44309505cad4"
+    },
+    "user": {
+      "$oid": "6777cee31aea9842fcf0c9e2"
+    },
+    "date": {
+      "$date": "2025-04-11T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-11T08:15:00Z"
+      },
+      "location": {
+        "latitude": 28.661186,
+        "longitude": 77.197726
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-11T16:17:24Z"
+      },
+      "location": {
+        "latitude": 28.717631,
+        "longitude": 77.137836
+      }
+    },
+    "totalHours": 8.04,
+    "status": "present",
+    "breaks": [],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.617441Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.617443Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "4ed4ebf61d7c473db343a16b"
+    },
+    "user": {
+      "$oid": "681b05f9f095501f635801c9"
+    },
+    "date": {
+      "$date": "2025-04-06T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-06T09:30:00Z"
+      },
+      "location": {
+        "latitude": 28.625238,
+        "longitude": 77.189269
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-06T18:19:12Z"
+      },
+      "location": {
+        "latitude": 28.791,
+        "longitude": 77.293399
+      }
+    },
+    "totalHours": 8.82,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "5a9c0ee3f259424cab01260a"
+        },
+        "startTime": {
+          "$date": "2025-04-06T10:56:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-06T11:20:36Z"
+        },
+        "duration": 0.41
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.617571Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.617573Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "505f1eb3172a46aa8610d39b"
+    },
+    "user": {
+      "$oid": "681b05f9f095501f635801c9"
+    },
+    "date": {
+      "$date": "2025-05-01T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-05-01T08:30:00Z"
+      },
+      "location": {
+        "latitude": 28.75669,
+        "longitude": 77.292887
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-05-01T18:27:36Z"
+      },
+      "location": {
+        "latitude": 28.660986,
+        "longitude": 77.238127
+      }
+    },
+    "totalHours": 9.96,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "f142c10ac3394ad6a753cae9"
+        },
+        "startTime": {
+          "$date": "2025-05-01T10:32:00Z"
+        },
+        "endTime": {
+          "$date": "2025-05-01T10:45:12Z"
+        },
+        "duration": 0.22
+      },
+      {
+        "_id": {
+          "$oid": "582f1c0e14c14a4e8e757031"
+        },
+        "startTime": {
+          "$date": "2025-05-01T10:19:00Z"
+        },
+        "endTime": {
+          "$date": "2025-05-01T10:41:12Z"
+        },
+        "duration": 0.37
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.617670Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.617672Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "b34ec101db4243c1a2632fde"
+    },
+    "user": {
+      "$oid": "6784c241e12fe0ae8dd55e46"
+    },
+    "date": {
+      "$date": "2025-04-14T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-14T09:00:00Z"
+      },
+      "location": {
+        "latitude": 28.654327,
+        "longitude": 77.127507
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-14T17:16:48Z"
+      },
+      "location": {
+        "latitude": 28.676909,
+        "longitude": 77.281919
+      }
+    },
+    "totalHours": 8.28,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "21be5a8d626347928f9782d6"
+        },
+        "startTime": {
+          "$date": "2025-04-14T12:48:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-14T13:01:12Z"
+        },
+        "duration": 0.22
+      },
+      {
+        "_id": {
+          "$oid": "941b6956cf514774b13b5ab8"
+        },
+        "startTime": {
+          "$date": "2025-04-14T12:47:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-14T12:59:36Z"
+        },
+        "duration": 0.21
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.617795Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.617798Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "2be0bd10d4364a26a8f314cf"
+    },
+    "user": {
+      "$oid": "6784cdfce12fe0ae8dd56107"
+    },
+    "date": {
+      "$date": "2025-04-28T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-28T08:15:00Z"
+      },
+      "location": {
+        "latitude": 28.653504,
+        "longitude": 77.275382
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-28T16:43:12Z"
+      },
+      "location": {
+        "latitude": 28.606039,
+        "longitude": 77.289569
+      }
+    },
+    "totalHours": 8.47,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "d97669c9d1414c9a99457844"
+        },
+        "startTime": {
+          "$date": "2025-04-28T11:48:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-28T12:16:12Z"
+        },
+        "duration": 0.47
+      },
+      {
+        "_id": {
+          "$oid": "e43ab482668a4fd3881bc935"
+        },
+        "startTime": {
+          "$date": "2025-04-28T10:03:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-28T10:19:48Z"
+        },
+        "duration": 0.28
+      },
+      {
+        "_id": {
+          "$oid": "8bd2e63fe180425281798122"
+        },
+        "startTime": {
+          "$date": "2025-04-28T12:09:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-28T12:24:00Z"
+        },
+        "duration": 0.25
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.617921Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.617924Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "b98d71590909477e8e85ebcd"
+    },
+    "user": {
+      "$oid": "67861ca48df1fafd50b4af66"
+    },
+    "date": {
+      "$date": "2025-04-18T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-18T08:30:00Z"
+      },
+      "location": {
+        "latitude": 28.718245,
+        "longitude": 77.168203
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-18T18:06:36Z"
+      },
+      "location": {
+        "latitude": 28.720531,
+        "longitude": 77.2619
+      }
+    },
+    "totalHours": 9.61,
+    "status": "present",
+    "breaks": [],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.617960Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.617962Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "ace3fa8296cd4d0da9d74b70"
+    },
+    "user": {
+      "$oid": "6784c241e12fe0ae8dd55e46"
+    },
+    "date": {
+      "$date": "2025-04-27T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-27T09:45:00Z"
+      },
+      "location": {
+        "latitude": 28.726197,
+        "longitude": 77.240185
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-27T18:49:48Z"
+      },
+      "location": {
+        "latitude": 28.747909,
+        "longitude": 77.134254
+      }
+    },
+    "totalHours": 9.08,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "b05d8b8c46d24ff09a8a0ce5"
+        },
+        "startTime": {
+          "$date": "2025-04-27T11:04:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-27T11:23:12Z"
+        },
+        "duration": 0.32
+      },
+      {
+        "_id": {
+          "$oid": "7f487b73e0084461a8767fc3"
+        },
+        "startTime": {
+          "$date": "2025-04-27T11:41:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-27T12:09:48Z"
+        },
+        "duration": 0.48
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.618021Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.618023Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "d1bd059b79604179879b0770"
+    },
+    "user": {
+      "$oid": "681b05f9f095501f635801c9"
+    },
+    "date": {
+      "$date": "2025-04-23T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-23T09:15:00Z"
+      },
+      "location": {
+        "latitude": 28.638161,
+        "longitude": 77.155064
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-23T19:09:36Z"
+      },
+      "location": {
+        "latitude": 28.628036,
+        "longitude": 77.139813
+      }
+    },
+    "totalHours": 9.91,
+    "status": "present",
+    "breaks": [],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.618289Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.618294Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "10326491d63a4452996d47c7"
+    },
+    "user": {
+      "$oid": "681b05f9f095501f635801c9"
+    },
+    "date": {
+      "$date": "2025-04-15T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-15T10:30:00Z"
+      },
+      "location": {
+        "latitude": 28.716107,
+        "longitude": 77.297157
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-15T19:13:48Z"
+      },
+      "location": {
+        "latitude": 28.652701,
+        "longitude": 77.17922
+      }
+    },
+    "totalHours": 8.73,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "1088862a252d431bb02823fb"
+        },
+        "startTime": {
+          "$date": "2025-04-15T12:39:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-15T13:05:24Z"
+        },
+        "duration": 0.44
+      },
+      {
+        "_id": {
+          "$oid": "ac9c63fb577447a0b86fa618"
+        },
+        "startTime": {
+          "$date": "2025-04-15T13:46:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-15T14:11:48Z"
+        },
+        "duration": 0.43
+      },
+      {
+        "_id": {
+          "$oid": "e4fb1fe5683f4bf38431e5d4"
+        },
+        "startTime": {
+          "$date": "2025-04-15T12:05:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-15T12:21:48Z"
+        },
+        "duration": 0.28
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.618454Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.618456Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "783df337a5ed4dd298ecb767"
+    },
+    "user": {
+      "$oid": "6784cdfce12fe0ae8dd56107"
+    },
+    "date": {
+      "$date": "2025-04-09T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-09T08:15:00Z"
+      },
+      "location": {
+        "latitude": 28.644286,
+        "longitude": 77.272397
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-09T17:15:00Z"
+      },
+      "location": {
+        "latitude": 28.687777,
+        "longitude": 77.275314
+      }
+    },
+    "totalHours": 9.0,
+    "status": "present",
+    "breaks": [],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.618490Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.618492Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "7f16a52ee6524574a456a158"
+    },
+    "user": {
+      "$oid": "67861ca48df1fafd50b4af66"
+    },
+    "date": {
+      "$date": "2025-04-14T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-14T08:45:00Z"
+      },
+      "location": {
+        "latitude": 28.745384,
+        "longitude": 77.246031
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-14T17:36:36Z"
+      },
+      "location": {
+        "latitude": 28.710083,
+        "longitude": 77.153441
+      }
+    },
+    "totalHours": 8.86,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "5caf3f3d94fb4915a804d5c8"
+        },
+        "startTime": {
+          "$date": "2025-04-14T10:38:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-14T11:04:24Z"
+        },
+        "duration": 0.44
+      },
+      {
+        "_id": {
+          "$oid": "8dae2b8767414f158619047c"
+        },
+        "startTime": {
+          "$date": "2025-04-14T11:22:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-14T11:34:36Z"
+        },
+        "duration": 0.21
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.618555Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.618557Z"
+    },
+    "__v": 1
+  },
+  {
+    "_id": {
+      "$oid": "7ee799fc7e8d452a80c68a73"
+    },
+    "user": {
+      "$oid": "6784cdfce12fe0ae8dd56107"
+    },
+    "date": {
+      "$date": "2025-04-01T00:00:00Z"
+    },
+    "checkIn": {
+      "time": {
+        "$date": "2025-04-01T09:00:00Z"
+      },
+      "location": {
+        "latitude": 28.695085,
+        "longitude": 77.106921
+      }
+    },
+    "checkOut": {
+      "time": {
+        "$date": "2025-04-01T18:33:36Z"
+      },
+      "location": {
+        "latitude": 28.689193,
+        "longitude": 77.201226
+      }
+    },
+    "totalHours": 9.56,
+    "status": "present",
+    "breaks": [
+      {
+        "_id": {
+          "$oid": "48c072b87de54ce99cff615f"
+        },
+        "startTime": {
+          "$date": "2025-04-01T10:47:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-01T11:07:24Z"
+        },
+        "duration": 0.34
+      },
+      {
+        "_id": {
+          "$oid": "1ebe386bb4ba46fc9c1fb2bd"
+        },
+        "startTime": {
+          "$date": "2025-04-01T10:40:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-01T11:01:00Z"
+        },
+        "duration": 0.35
+      },
+      {
+        "_id": {
+          "$oid": "bc282c4f93e84a14b41c389a"
+        },
+        "startTime": {
+          "$date": "2025-04-01T10:36:00Z"
+        },
+        "endTime": {
+          "$date": "2025-04-01T11:00:36Z"
+        },
+        "duration": 0.41
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-05-08T06:55:58.618671Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-08T06:55:58.618673Z"
+    },
+    "__v": 1
+  }
+]
